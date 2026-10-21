@@ -100,3 +100,17 @@ h1,h2,h3,.contact-quote p,.stamp{font-family:var(--serif);font-weight:600;letter
  .hero-content{order:1!important}
  .hero-person{order:2!important}
 }
+
+
+/* Desktop hero: true two-column composition. Mobile stack above remains untouched. */
+@media(min-width:620px){
+ .hero{display:flex!important;flex-direction:row!important;align-items:stretch!important;justify-content:space-between!important;gap:0!important;min-height:clamp(620px,78vh,790px)!important;max-height:850px!important;height:auto!important;overflow:hidden!important;background:#070b15!important}
+ .hero-photo{display:none!important;background-image:none!important}
+ .hero-shade{display:none!important}
+ .hero-person{position:relative!important;inset:auto!important;order:1!important;flex:0 1 47%!important;width:47%!important;height:auto!important;max-width:640px!important;max-height:790px!important;min-width:0!important;align-self:stretch!important;object-fit:contain!important;object-position:left bottom!important;margin:0!important;padding:0!important;z-index:0!important;filter:drop-shadow(0 16px 28px rgba(0,0,0,.24))!important;mask-image:none!important}
+ .hero-content{position:relative!important;order:2!important;flex:1 1 53%!important;width:53%!important;max-width:780px!important;min-width:0!important;margin:0!important;padding:clamp(46px,5vw,78px) clamp(32px,5.5vw,88px)!important;align-self:center!important;text-align:right!important;background:#070b15!important;z-index:2!important}
+ .hero h1{font-size:clamp(42px,4.3vw,66px)!important;line-height:1.4!important}
+ .hero-p{max-width:560px!important;font-size:clamp(16px,1.35vw,19px)!important;line-height:1.95!important}
+ .hero-content .actions{display:flex;flex-wrap:wrap;gap:12px}
+}
+@media(min-width:1100px){.hero-person{flex-basis:46%!important;width:46%!important}.hero-content{flex-basis:54%!important;width:54%!important;padding-inline:clamp(56px,6vw,104px)!important}}
