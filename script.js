@@ -17,3 +17,19 @@ whatsappLinks.forEach((link) => {
 });
 
 if (setupWarning) setupWarning.hidden = true;
+
+
+const menuToggle = document.querySelector(".menu-toggle");
+const siteMenu = document.getElementById("site-menu");
+if (menuToggle && siteMenu) {
+  const closeMenu = () => { siteMenu.hidden = true; menuToggle.setAttribute("aria-expanded", "false"); menuToggle.setAttribute("aria-label", "فتح القائمة"); };
+  menuToggle.addEventListener("click", () => {
+    const isOpen = menuToggle.getAttribute("aria-expanded") === "true";
+    siteMenu.hidden = isOpen;
+    menuToggle.setAttribute("aria-expanded", String(!isOpen));
+    menuToggle.setAttribute("aria-label", isOpen ? "فتح القائمة" : "إغلاق القائمة");
+  });
+  siteMenu.querySelectorAll("a").forEach((link) => link.addEventListener("click", closeMenu));
+  document.addEventListener("keydown", (event) => { if (event.key === "Escape") closeMenu(); });
+  document.addEventListener("click", (event) => { if (!siteMenu.hidden && !siteMenu.contains(event.target) && !menuToggle.contains(event.target)) closeMenu(); });
+}
