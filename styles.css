@@ -73,3 +73,9 @@ h1,h2,h3,.contact-quote p,.stamp{font-family:var(--serif);font-weight:600;letter
 @media(min-width:900px){.hero-content{width:56%!important;padding-inline:clamp(48px,6vw,100px)!important}.hero-person{width:min(47%,690px)!important}}
 @media(max-width:619px){.hero{min-height:760px!important;min-height:max(760px,calc(100svh - 68px))!important;align-items:flex-end!important}.hero-photo{background-position:70% 28%!important}.hero-shade{background:linear-gradient(0deg,rgba(5,15,23,.98) 0%,rgba(5,15,23,.88) 40%,rgba(5,15,23,.26) 70%,rgba(5,15,23,.04) 100%)!important}.hero-person{left:-3%!important;right:auto!important;top:0!important;bottom:auto!important;width:67%!important;height:47%!important;object-position:left top!important}.hero-content{width:100%!important;margin:0!important;padding:310px 20px 28px!important;text-align:right}.hero h1{font-size:clamp(32px,8vw,43px);line-height:1.4}.hero-p{font-size:15px;margin:12px 0 18px}.hero .actions{align-items:stretch}.hero .btn{width:100%;max-width:360px}.hero-foot{margin-top:14px}.hero-note{margin-top:10px}}
 @media(max-width:380px){.hero{min-height:730px!important}.hero-person{width:70%!important;height:44%!important}.hero-content{padding-top:285px!important;padding-inline:16px!important}.hero h1{font-size:31px}}
+
+/* Use a3.png as the sole hero image; remove the previous shrine background layer. */
+.hero{background:#101c29!important}
+.hero-photo{display:none!important;background-image:none!important}
+.hero-shade{background:linear-gradient(270deg,rgba(6,18,29,.84) 0%,rgba(6,18,29,.45) 38%,rgba(6,18,29,.08) 68%,transparent 100%)!important}
+@media(max-width:619px){.hero-shade{background:linear-gradient(0deg,rgba(5,15,23,.88) 0%,rgba(5,15,23,.5) 42%,rgba(5,15,23,.06) 78%,transparent 100%)!important}}
