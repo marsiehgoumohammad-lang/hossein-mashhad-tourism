@@ -114,3 +114,13 @@ h1,h2,h3,.contact-quote p,.stamp{font-family:var(--serif);font-weight:600;letter
  .hero-content .actions{display:flex;flex-wrap:wrap;gap:12px}
 }
 @media(min-width:1100px){.hero-person{flex-basis:46%!important;width:46%!important}.hero-content{flex-basis:54%!important;width:54%!important;padding-inline:clamp(56px,6vw,104px)!important}}
+
+/* Desktop hero: full image panel left, all headings and copy on right. Mobile layout remains unchanged. */
+@media (min-width: 620px) {
+ .hero { display:grid!important; grid-template-columns:minmax(0,1fr) minmax(0,1fr)!important; align-items:stretch!important; gap:0!important; min-height:clamp(620px,78vh,800px)!important; height:auto!important; max-height:850px!important; overflow:hidden!important; background:#070b15!important; }
+ .hero-photo,.hero-shade { display:none!important; background-image:none!important; }
+ .hero-person { grid-column:1!important; grid-row:1!important; position:relative!important; inset:auto!important; order:initial!important; width:100%!important; height:100%!important; min-width:0!important; max-width:none!important; max-height:none!important; align-self:stretch!important; justify-self:stretch!important; object-fit:cover!important; object-position:center center!important; margin:0!important; padding:0!important; border-radius:0!important; mask-image:none!important; filter:none!important; z-index:0!important; }
+ .hero-content { grid-column:2!important; grid-row:1!important; position:relative!important; order:initial!important; width:100%!important; max-width:none!important; min-width:0!important; margin:0!important; padding:clamp(42px,5vw,82px) clamp(32px,5vw,84px)!important; align-self:center!important; justify-self:stretch!important; text-align:right!important; background:#070b15!important; z-index:2!important; }
+ .hero h1 { font-size:clamp(40px,4.2vw,64px)!important; line-height:1.4!important; }
+ .hero-p { max-width:570px!important; font-size:clamp(16px,1.3vw,19px)!important; line-height:1.95!important; }
+}
