@@ -79,3 +79,24 @@ h1,h2,h3,.contact-quote p,.stamp{font-family:var(--serif);font-weight:600;letter
 .hero-photo{display:none!important;background-image:none!important}
 .hero-shade{background:linear-gradient(270deg,rgba(6,18,29,.84) 0%,rgba(6,18,29,.45) 38%,rgba(6,18,29,.08) 68%,transparent 100%)!important}
 @media(max-width:619px){.hero-shade{background:linear-gradient(0deg,rgba(5,15,23,.88) 0%,rgba(5,15,23,.5) 42%,rgba(5,15,23,.06) 78%,transparent 100%)!important}}
+
+
+/* Match Negaresh Yar mobile hero: two clean stacked panels, copy first and image second. */
+@media(max-width:619px){
+ .hero{display:flex!important;flex-direction:column!important;align-items:stretch!important;justify-content:flex-start!important;min-height:0!important;height:auto!important;max-height:none!important;overflow:hidden!important;background:#070b15!important}
+ .hero-shade{display:none!important}
+ .hero-content{position:relative!important;order:1!important;flex:0 0 auto!important;width:100%!important;margin:0!important;padding:34px 20px 26px!important;text-align:right!important;background:#070b15!important}
+ .hero-content .eyebrow{margin-bottom:10px!important}
+ .hero-content .intro{margin-bottom:8px!important}
+ .hero h1{font-size:clamp(31px,8vw,40px)!important;line-height:1.4!important;margin-bottom:14px!important}
+ .hero-p{font-size:15px!important;line-height:1.9!important;margin:0 0 20px!important}
+ .hero-content .actions{display:flex!important;flex-direction:column!important;align-items:stretch!important;gap:10px!important;width:100%!important}
+ .hero-content .actions a{width:100%!important;justify-content:center!important;min-height:48px!important}
+ .hero-note{margin-top:16px!important}
+ .hero-person{display:block!important;position:relative!important;inset:auto!important;order:2!important;flex:0 0 auto!important;width:100%!important;height:auto!important;max-height:none!important;max-width:100%!important;object-fit:contain!important;object-position:center bottom!important;margin:0!important;padding:0!important;border-radius:0!important;mask-image:none!important;filter:none!important;background:#101c29!important;z-index:0!important}
+}
+@media(min-width:620px){
+ .hero{display:flex!important;flex-direction:row!important;align-items:center!important;min-height:680px!important}
+ .hero-content{order:1!important}
+ .hero-person{order:2!important}
+}
