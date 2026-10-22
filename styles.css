@@ -142,3 +142,6 @@ h1,h2,h3,.contact-quote p,.stamp{font-family:var(--serif);font-weight:600;letter
 
 /* Accessible editorial navigation for the blog and topic hubs */
 footer .footer-nav{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px 16px;max-width:var(--max);margin:20px auto 24px;padding:18px 16px;border-top:1px solid rgba(215,180,106,.35);border-bottom:1px solid rgba(215,180,106,.35)}footer .footer-nav a{display:block;color:inherit;text-decoration:none;padding:7px 0;line-height:1.7;font-size:14px}footer .footer-nav a:hover{color:#9a742d}@media(min-width:620px){footer .footer-nav{grid-template-columns:repeat(3,minmax(0,1fr));padding-inline:0}}
+
+/* Topic-specific editorial imagery; responsive and CLS-safe. */
+.article-featured-image{margin:22px 0 28px;overflow:hidden;border-radius:18px;background:var(--panel, #17232e)}.article-featured-image img{display:block;width:100%;height:auto;max-height:520px;object-fit:cover;aspect-ratio:16/10}.article-featured-image figcaption{padding:9px 12px;font-size:.78rem;line-height:1.7;color:var(--muted);background:rgba(16,27,38,.06)}.article-featured-image figcaption a{color:inherit;text-decoration:underline;text-underline-offset:3px}
