@@ -17,11 +17,46 @@ function initializeSite() {
   });
   if (setupWarning) setupWarning.hidden = true;
 
-  // Bind after the DOM exists; keep the hidden attribute and ARIA state in sync.
   const button = document.querySelector(".menu-toggle");
   const menu = document.getElementById("site-menu");
-  if (!button || !menu || button.dataset.menuReady === "true") return;
+  if (!button || !menu) return;
+
+  // A visible fallback navigation in the footer keeps every key destination accessible.
+  const footer = document.querySelector("footer");
+  if (footer && !footer.querySelector(".footer-nav")) {
+    const footerNav = document.createElement("nav");
+    footerNav.className = "footer-nav";
+    footerNav.setAttribute("aria-label", "روابط الموقع");
+    const heading = document.createElement("strong");
+    heading.className = "footer-nav-title";
+    heading.textContent = "تصفح الموقع";
+    footerNav.appendChild(heading);
+    menu.querySelectorAll("a").forEach((sourceLink) => {
+      const link = sourceLink.cloneNode(true);
+      link.classList.remove("menu-whatsapp");
+      footerNav.appendChild(link);
+    });
+    const footerBottom = footer.querySelector(".footer-bottom");
+    footer.insertBefore(footerNav, footerBottom || null);
+
+    if (!document.getElementById("footer-nav-styles")) {
+      const style = document.createElement("style");
+      style.id = "footer-nav-styles";
+      style.textContent = `
+        footer .footer-nav{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px 16px;max-width:var(--max);margin:20px auto 24px;padding:18px 0;border-top:1px solid rgba(229,193,88,.24);border-bottom:1px solid rgba(229,193,88,.24)}
+        footer .footer-nav-title{grid-column:1/-1;color:#e5c158;font-size:14px;margin-bottom:4px}
+        footer .footer-nav a{display:block;color:#fff;text-decoration:none;padding:7px 0;line-height:1.7}
+        footer .footer-nav a span{color:#e5c158}
+        @media(min-width:620px){footer .footer-nav{grid-template-columns:repeat(3,minmax(0,1fr))}}
+      `;
+      document.head.appendChild(style);
+    }
+  }
+
+  if (button.dataset.menuReady === "true") return;
   button.dataset.menuReady = "true";
+  button.type = "button";
+  button.setAttribute("aria-controls", "site-menu");
 
   const setMenuOpen = (open) => {
     menu.hidden = !open;
@@ -30,13 +65,13 @@ function initializeSite() {
     button.setAttribute("aria-label", open ? "إغلاق القائمة" : "فتح القائمة");
   };
 
-  // Normalize the initial state in case a browser restores stale DOM state.
   setMenuOpen(false);
-  button.addEventListener("click", (event) => {
+  // Assign the handler directly as a fallback against duplicate or stale listeners.
+  button.onclick = (event) => {
     event.preventDefault();
     event.stopPropagation();
     setMenuOpen(menu.hidden);
-  });
+  };
   document.addEventListener("click", (event) => {
     if (!menu.hidden && !menu.contains(event.target) && !button.contains(event.target)) setMenuOpen(false);
   });
