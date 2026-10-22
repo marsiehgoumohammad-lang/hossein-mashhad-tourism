@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://hussein-mashhad-tourism.netlify.app/sitemap.xml
