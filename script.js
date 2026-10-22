@@ -17,3 +17,7 @@ whatsappLinks.forEach((link) => {
 });
 
 if (setupWarning) setupWarning.hidden = true;
+
+
+// Accessible mobile navigation.
+(()=>{const button=document.querySelector('.menu-toggle');const menu=document.getElementById('site-menu');if(!button||!menu)return;const close=()=>{button.setAttribute('aria-expanded','false');button.setAttribute('aria-label','فتح القائمة');menu.hidden=true};button.addEventListener('click',()=>{const open=button.getAttribute('aria-expanded')!=='true';button.setAttribute('aria-expanded',String(open));button.setAttribute('aria-label',open?'إغلاق القائمة':'فتح القائمة');menu.hidden=!open});document.addEventListener('click',e=>{if(!menu.hidden&&!menu.contains(e.target)&&!button.contains(e.target))close()});document.addEventListener('keydown',e=>{if(e.key==='Escape')close()});menu.querySelectorAll('a').forEach(a=>a.addEventListener('click',close))})();
