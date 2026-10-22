@@ -9,16 +9,20 @@ A mobile-first, Arabic RTL landing page for Hossein's personal companion and coo
 - Explain the journey from arrival to departure without creating a generic “Our Services” catalogue.
 - Mention healthcare coordination as a secondary option without making medical promises.
 
+## Mandatory SEO publishing standard
+Every existing and future content page must follow [`docs/SEO_CONTENT_STANDARD.md`](docs/SEO_CONTENT_STANDARD.md). No page is considered complete until its unique SEO title, meta description, canonical URL, social metadata, valid structured data, optimized featured image with complete image SEO, internal links, and technical checks have been reviewed. The standard applies retroactively to existing articles as they are audited and improved. Target a 90+/100 score in the applicable SEO audit tool where feasible, while treating tool scores as diagnostic checks—not a guarantee of Google rankings. Medical content requires additional factual and safety review.
+
 ## Run locally
-This is a static site. Open `index.html` in a browser or serve the directory with any static HTTP server.
+This is a static site. Open `index.html` in a browser or serve the directory with any static HTTP server. No build step is required.
 
 ## Required before launch
 1. Add the verified international WhatsApp number to `WHATSAPP_NUMBER` in `script.js` (digits only, country code included).
 2. Replace the video preview cards with three real, properly licensed vertical videos.
 3. Add Hossein's approved portrait and integrate it into the hero composition. No portrait has been fabricated or substituted.
-4. Verify the external image URLs, attribution and license requirements, and preferably optimize and self-host approved image assets.
+4. Verify external image URLs, attribution and license requirements, and preferably optimize and self-host approved image assets.
 5. Review all service descriptions against what is actually available and confirm the final Arabic copy with a fluent speaker.
 6. Add a real domain, analytics/Search Console configuration, and privacy information if needed.
+7. Audit all existing content pages against the mandatory SEO standard; do not infer completion from the existence of basic metadata alone.
 
 ## Image credits
 The hero uses the Wikimedia Commons file [Imam Reza shrine.jpg](https://commons.wikimedia.org/wiki/File:Imam_Reza_shrine.jpg), credited on its source page to Mohammad Hosein Tabatabaeian and licensed CC BY-SA 3.0. Additional shrine images are loaded from Wikimedia Commons; verify each file page and preserve the applicable attribution/license notices when publishing.
