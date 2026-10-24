@@ -145,3 +145,7 @@ footer .footer-nav{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));ga
 
 /* Topic-specific editorial imagery; responsive and CLS-safe. */
 .article-featured-image{margin:22px 0 28px;overflow:hidden;border-radius:18px;background:var(--panel, #17232e)}.article-featured-image img{display:block;width:100%;height:auto;max-height:520px;object-fit:cover;aspect-ratio:16/10}.article-featured-image figcaption{padding:9px 12px;font-size:.78rem;line-height:1.7;color:var(--muted);background:rgba(16,27,38,.06)}.article-featured-image figcaption a{color:inherit;text-decoration:underline;text-underline-offset:3px}
+
+
+/* GEO quick-answer block: concise, topic-specific summary near the start of each page. */
+.quick-answer{margin:18px auto 26px;padding:16px 18px;border:1px solid rgba(201,164,91,.42);border-inline-start:4px solid var(--gold,#c9a45b);border-radius:12px;background:rgba(201,164,91,.07);max-width:900px}.quick-answer h2{margin:0 0 6px;font-size:1rem;line-height:1.6;color:var(--ink,#14212b)}.quick-answer p{margin:0;line-height:1.95;font-size:.98rem;color:var(--ink,#14212b)}
