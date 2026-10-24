@@ -17,6 +17,18 @@ function initializeSite() {
   });
   if (setupWarning) setupWarning.hidden = true;
 
+  // Keep the summary readable over the dark hero image.
+  if (!document.getElementById("hero-summary-contrast")) {
+    const style = document.createElement("style");
+    style.id = "hero-summary-contrast";
+    style.textContent = `
+      .hero .quick-answer{background:rgba(5,15,23,.82);border-color:rgba(255,255,255,.48);border-inline-start-color:#fff;color:#fff}
+      .hero .quick-answer h2,.hero .quick-answer p{color:#fff!important}
+      .hero .quick-answer h2{font-weight:800}
+    `;
+    document.head.appendChild(style);
+  }
+
   const button = document.querySelector(".menu-toggle");
   const menu = document.getElementById("site-menu");
   if (!button || !menu) return;
@@ -53,6 +65,7 @@ function initializeSite() {
     }
   }
 
+  // Bind once, with an explicit state instead of relying on the hidden attribute alone.
   if (button.dataset.menuReady === "true") return;
   button.dataset.menuReady = "true";
   button.type = "button";
@@ -66,12 +79,11 @@ function initializeSite() {
   };
 
   setMenuOpen(false);
-  // Assign the handler directly as a fallback against duplicate or stale listeners.
-  button.onclick = (event) => {
+  button.addEventListener("click", (event) => {
     event.preventDefault();
     event.stopPropagation();
     setMenuOpen(menu.hidden);
-  };
+  });
   document.addEventListener("click", (event) => {
     if (!menu.hidden && !menu.contains(event.target) && !button.contains(event.target)) setMenuOpen(false);
   });
