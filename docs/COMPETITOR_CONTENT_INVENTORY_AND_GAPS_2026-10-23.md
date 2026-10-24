@@ -331,3 +331,10 @@
 ## 18. ممیزی سراسری FAQ و sitemap — 2026-10-24
 
 روی درخت فعلی main تمام 58 فایل HTML بررسی شد. نتیجه: همه صفحات title و meta description و canonical دارند؛ برای هر صفحه یک H1 پیدا شد؛ عنوان‌ها و canonicalهای تکراری پیدا نشد؛ همه بلوک‌های JSON-LD قابل‌تجزیه بودند؛ برای تمام FAQPageها، پرسش‌های schema دقیقاً با summaryهای FAQ قابل‌مشاهده تطابق داشتند؛ صفحه دارای FAQ ظاهری بدون FAQPage schema پیدا نشد. sitemap.xml معتبر است و 58 URL یکتا دارد. این بررسی روی فایل‌های GitHub انجام شده و جایگزین crawl زنده Netlify، Lighthouse یا داده‌های Search Console نیست.
+
+
+## 19. ممیزی کامل metadata و پیوندها — 2026-10-24
+
+پس از دریافت مجدد تمام 58 فایل HTML از آخرین درخت GitHub، ممیزی گسترده‌تری اجرا شد: هیچ صفحه‌ای فاقد title، meta description، canonical، og:title، og:description، og:url، og:image یا فیلدهای twitter:card/title/description نبود؛ تصویر بدون alt پیدا نشد؛ پیوند داخلی شکسته پیدا نشد؛ عنوان یا canonical تکراری پیدا نشد؛ JSON-LD نامعتبر یا اختلاف میان پرسش‌های FAQPage و FAQهای ظاهری پیدا نشد. 58 URL در sitemap.xml وجود دارد، همگی یکتا هستند و XML معتبر است. صفحه درباره حسین نیز با توضیح روند کار، شفافیت تعهدات و حفاظت از داده‌ها به حدود 350 واژه رسید.
+
+این ممیزی بر فایل‌های GitHub استوار است؛ هنوز crawl زنده Netlify، Lighthouse/Core Web Vitals یا داده‌های Search Console اجرا نشده‌اند.
