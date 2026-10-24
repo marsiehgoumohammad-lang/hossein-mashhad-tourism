@@ -65,32 +65,43 @@ function initializeSite() {
     }
   }
 
-  // Bind once, with an explicit state instead of relying on the hidden attribute alone.
-  if (button.dataset.menuReady === "true") return;
-  button.dataset.menuReady = "true";
-  button.type = "button";
-  button.setAttribute("aria-controls", "site-menu");
+  // Reliable mobile navigation: one state source, explicit visibility, and accessible state.
+  if (button.dataset.menuReady !== "true") {
+    button.dataset.menuReady = "true";
+    button.type = "button";
+    button.setAttribute("aria-controls", "site-menu");
 
-  const setMenuOpen = (open) => {
-    menu.hidden = !open;
-    menu.classList.toggle("is-open", open);
-    button.setAttribute("aria-expanded", String(open));
-    button.setAttribute("aria-label", open ? "إغلاق القائمة" : "فتح القائمة");
-  };
+    const setMenuOpen = (open) => {
+      const isMobile = window.matchMedia("(max-width: 619px)").matches;
+      const shouldOpen = Boolean(open && isMobile);
+      menu.hidden = !shouldOpen;
+      menu.classList.toggle("is-open", shouldOpen);
+      menu.style.display = shouldOpen ? "flex" : "none";
+      button.setAttribute("aria-expanded", String(shouldOpen));
+      button.setAttribute("aria-label", shouldOpen ? "إغلاق القائمة" : "فتح القائمة");
+    };
 
-  setMenuOpen(false);
-  button.addEventListener("click", (event) => {
-    event.preventDefault();
-    event.stopPropagation();
-    setMenuOpen(menu.hidden);
-  });
-  document.addEventListener("click", (event) => {
-    if (!menu.hidden && !menu.contains(event.target) && !button.contains(event.target)) setMenuOpen(false);
-  });
-  document.addEventListener("keydown", (event) => {
-    if (event.key === "Escape") setMenuOpen(false);
-  });
-  menu.querySelectorAll("a").forEach((link) => link.addEventListener("click", () => setMenuOpen(false)));
+    setMenuOpen(false);
+    button.addEventListener("click", (event) => {
+      event.preventDefault();
+      event.stopPropagation();
+      setMenuOpen(menu.hidden || button.getAttribute("aria-expanded") !== "true");
+    });
+    document.addEventListener("click", (event) => {
+      if (!menu.hidden && !menu.contains(event.target) && !button.contains(event.target)) setMenuOpen(false);
+    });
+    document.addEventListener("keydown", (event) => {
+      if (event.key === "Escape" && !menu.hidden) {
+        setMenuOpen(false);
+        button.focus();
+      }
+    });
+    menu.querySelectorAll("a").forEach((link) => link.addEventListener("click", () => setMenuOpen(false)));
+    window.addEventListener("resize", () => {
+      if (!window.matchMedia("(max-width: 619px)").matches) setMenuOpen(false);
+    }, { passive: true });
+  }
+
 }
 
 if (document.readyState === "loading") {

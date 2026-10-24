@@ -149,3 +149,13 @@ footer .footer-nav{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));ga
 
 /* GEO quick-answer block: concise, topic-specific summary near the start of each page. */
 .quick-answer{margin:18px auto 26px;padding:16px 18px;border:1px solid rgba(201,164,91,.42);border-inline-start:4px solid var(--gold,#c9a45b);border-radius:12px;background:rgba(201,164,91,.07);max-width:900px}.quick-answer h2{margin:0 0 6px;font-size:1rem;line-height:1.6;color:var(--ink,#14212b)}.quick-answer p{margin:0;line-height:1.95;font-size:.98rem;color:var(--ink,#14212b)}
+
+
+/* Robust hamburger visibility and open state on narrow screens. */
+@media(max-width:619px){
+  .header .menu-toggle{display:flex!important;position:relative;z-index:82;touch-action:manipulation;pointer-events:auto}
+  .header .site-menu:not([hidden]){display:flex!important;visibility:visible!important;opacity:1!important;pointer-events:auto!important;z-index:81}
+  .header .site-menu[hidden]{display:none!important}
+  .header{isolation:isolate}
+}
+@media(min-width:620px){.header .menu-toggle,.header .site-menu{display:none!important}}
