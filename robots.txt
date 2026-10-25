@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://hussein-mashhad-tourism.netlify.app/sitemap.xml
+Sitemap: https://hossein-mashhad-tourism.vercel.app/sitemap.xml
