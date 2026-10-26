@@ -1,0 +1,316 @@
+{
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "redirects": [
+    {
+      "source": "/about-hussein.html",
+      "destination": "/about-hussein",
+      "permanent": true
+    },
+    {
+      "source": "/accommodation-near-shrine.html",
+      "destination": "/accommodation-near-shrine",
+      "permanent": true
+    },
+    {
+      "source": "/best-time-to-visit-mashhad.html",
+      "destination": "/best-time-to-visit-mashhad",
+      "permanent": true
+    },
+    {
+      "source": "/blog.html",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/budget-and-luxury-hotels-mashhad.html",
+      "destination": "/budget-and-luxury-hotels-mashhad",
+      "permanent": true
+    },
+    {
+      "source": "/cancer-treatment-mashhad.html",
+      "destination": "/cancer-treatment-mashhad",
+      "permanent": true
+    },
+    {
+      "source": "/cardiac-surgery-mashhad.html",
+      "destination": "/cardiac-surgery-mashhad",
+      "permanent": true
+    },
+    {
+      "source": "/day-trips-from-mashhad.html",
+      "destination": "/day-trips-from-mashhad",
+      "permanent": true
+    },
+    {
+      "source": "/dentistry-mashhad.html",
+      "destination": "/dentistry-mashhad",
+      "permanent": true
+    },
+    {
+      "source": "/digestive-diseases-mashhad.html",
+      "destination": "/digestive-diseases-mashhad",
+      "permanent": true
+    },
+    {
+      "source": "/flight-delay-and-travel-changes.html",
+      "destination": "/flight-delay-and-travel-changes",
+      "permanent": true
+    },
+    {
+      "source": "/guide-ziyarah-imam-reza.html",
+      "destination": "/guide-ziyarah-imam-reza",
+      "permanent": true
+    },
+    {
+      "source": "/health-tourism.html",
+      "destination": "/health-tourism",
+      "permanent": true
+    },
+    {
+      "source": "/hospitals-mashhad.html",
+      "destination": "/hospitals-mashhad",
+      "permanent": true
+    },
+    {
+      "source": "/hotels-mashhad-streets.html",
+      "destination": "/hotels-mashhad-streets",
+      "permanent": true
+    },
+    {
+      "source": "/hotels-near-shrine-comparison.html",
+      "destination": "/hotels-near-shrine-comparison",
+      "permanent": true
+    },
+    {
+      "source": "/index.html",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/infertility-treatment-mashhad.html",
+      "destination": "/infertility-treatment-mashhad",
+      "permanent": true
+    },
+    {
+      "source": "/iran-souvenirs-customs-guide.html",
+      "destination": "/iran-souvenirs-customs-guide",
+      "permanent": true
+    },
+    {
+      "source": "/iran-travel-insurance-guide.html",
+      "destination": "/iran-travel-insurance-guide",
+      "permanent": true
+    },
+    {
+      "source": "/iran-visa-requirements-arab-travelers.html",
+      "destination": "/iran-visa-requirements-arab-travelers",
+      "permanent": true
+    },
+    {
+      "source": "/iraq-to-mashhad-overland.html",
+      "destination": "/iraq-to-mashhad-overland",
+      "permanent": true
+    },
+    {
+      "source": "/kidney-urology-mashhad.html",
+      "destination": "/kidney-urology-mashhad",
+      "permanent": true
+    },
+    {
+      "source": "/mashhad-3-day-itinerary.html",
+      "destination": "/mashhad-3-day-itinerary",
+      "permanent": true
+    },
+    {
+      "source": "/mashhad-accessibility-elderly.html",
+      "destination": "/mashhad-accessibility-elderly",
+      "permanent": true
+    },
+    {
+      "source": "/mashhad-airport-to-shrine.html",
+      "destination": "/mashhad-airport-to-shrine",
+      "permanent": true
+    },
+    {
+      "source": "/mashhad-apartment-rental-guide.html",
+      "destination": "/mashhad-apartment-rental-guide",
+      "permanent": true
+    },
+    {
+      "source": "/mashhad-family-travel.html",
+      "destination": "/mashhad-family-travel",
+      "permanent": true
+    },
+    {
+      "source": "/mashhad-food-shopping-souvenirs.html",
+      "destination": "/mashhad-food-shopping-souvenirs",
+      "permanent": true
+    },
+    {
+      "source": "/mashhad-from-bahrain.html",
+      "destination": "/mashhad-from-bahrain",
+      "permanent": true
+    },
+    {
+      "source": "/mashhad-from-gulf.html",
+      "destination": "/mashhad-from-gulf",
+      "permanent": true
+    },
+    {
+      "source": "/mashhad-from-iraq.html",
+      "destination": "/mashhad-from-iraq",
+      "permanent": true
+    },
+    {
+      "source": "/mashhad-from-kuwait.html",
+      "destination": "/mashhad-from-kuwait",
+      "permanent": true
+    },
+    {
+      "source": "/mashhad-from-lebanon.html",
+      "destination": "/mashhad-from-lebanon",
+      "permanent": true
+    },
+    {
+      "source": "/mashhad-holy-city.html",
+      "destination": "/mashhad-holy-city",
+      "permanent": true
+    },
+    {
+      "source": "/mashhad-in-winter.html",
+      "destination": "/mashhad-in-winter",
+      "permanent": true
+    },
+    {
+      "source": "/mashhad-local-food-guide.html",
+      "destination": "/mashhad-local-food-guide",
+      "permanent": true
+    },
+    {
+      "source": "/mashhad-museums-and-cultural-places.html",
+      "destination": "/mashhad-museums-and-cultural-places",
+      "permanent": true
+    },
+    {
+      "source": "/mashhad-packing-checklist.html",
+      "destination": "/mashhad-packing-checklist",
+      "permanent": true
+    },
+    {
+      "source": "/mashhad-pilgrimage-etiquette.html",
+      "destination": "/mashhad-pilgrimage-etiquette",
+      "permanent": true
+    },
+    {
+      "source": "/mashhad-trip-cost.html",
+      "destination": "/mashhad-trip-cost",
+      "permanent": true
+    },
+    {
+      "source": "/mashhad-with-kids.html",
+      "destination": "/mashhad-with-kids",
+      "permanent": true
+    },
+    {
+      "source": "/medical-travel-documents.html",
+      "destination": "/medical-travel-documents",
+      "permanent": true
+    },
+    {
+      "source": "/medical-travel-mashhad.html",
+      "destination": "/medical-travel-mashhad",
+      "permanent": true
+    },
+    {
+      "source": "/money-and-payments-in-iran.html",
+      "destination": "/money-and-payments-in-iran",
+      "permanent": true
+    },
+    {
+      "source": "/neurosurgery-mashhad.html",
+      "destination": "/neurosurgery-mashhad",
+      "permanent": true
+    },
+    {
+      "source": "/online-medical-consultation-iran.html",
+      "destination": "/online-medical-consultation-iran",
+      "permanent": true
+    },
+    {
+      "source": "/ophthalmology-mashhad.html",
+      "destination": "/ophthalmology-mashhad",
+      "permanent": true
+    },
+    {
+      "source": "/orthopedic-surgery-mashhad.html",
+      "destination": "/orthopedic-surgery-mashhad",
+      "permanent": true
+    },
+    {
+      "source": "/persian-phrases-for-arab-travelers.html",
+      "destination": "/persian-phrases-for-arab-travelers",
+      "permanent": true
+    },
+    {
+      "source": "/plastic-surgery-mashhad.html",
+      "destination": "/plastic-surgery-mashhad",
+      "permanent": true
+    },
+    {
+      "source": "/public-transport-in-mashhad.html",
+      "destination": "/public-transport-in-mashhad",
+      "permanent": true
+    },
+    {
+      "source": "/qom-pilgrimage-guide.html",
+      "destination": "/qom-pilgrimage-guide",
+      "permanent": true
+    },
+    {
+      "source": "/religious-season-crowds-mashhad.html",
+      "destination": "/religious-season-crowds-mashhad",
+      "permanent": true
+    },
+    {
+      "source": "/religious-visit-during-treatment.html",
+      "destination": "/religious-visit-during-treatment",
+      "permanent": true
+    },
+    {
+      "source": "/restaurants-near-imam-reza-shrine.html",
+      "destination": "/restaurants-near-imam-reza-shrine",
+      "permanent": true
+    },
+    {
+      "source": "/samples.html",
+      "destination": "/samples",
+      "permanent": true
+    },
+    {
+      "source": "/services.html",
+      "destination": "/services",
+      "permanent": true
+    },
+    {
+      "source": "/sim-card-and-internet-in-iran.html",
+      "destination": "/sim-card-and-internet-in-iran",
+      "permanent": true
+    },
+    {
+      "source": "/testimonials.html",
+      "destination": "/testimonials",
+      "permanent": true
+    },
+    {
+      "source": "/things-to-do-in-mashhad.html",
+      "destination": "/things-to-do-in-mashhad",
+      "permanent": true
+    },
+    {
+      "source": "/transport-around-mashhad.html",
+      "destination": "/transport-around-mashhad",
+      "permanent": true
+    }
+  ]
+}
