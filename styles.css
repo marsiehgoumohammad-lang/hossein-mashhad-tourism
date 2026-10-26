@@ -164,3 +164,98 @@ footer .footer-nav{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));ga
 .brand-logo { display:block; width:clamp(116px, 15vw, 180px); height:auto; max-height:58px; object-fit:contain; }
 .whatsapp-icon { display:inline-block; width:1.35em; height:1.35em; object-fit:contain; vertical-align:middle; flex:0 0 auto; }
 @media (max-width: 600px) { .brand-logo { width:112px; max-height:48px; } }
+
+
+/* Premium homepage refresh: scoped to the landing page; other content pages retain their existing design. */
+body.home-page{--gold:#C5A059;--gold-light:#E6D5B8;--paper:#F4F1EA;--deep:#051A12;--green:#0B291E;--ink:#17211d;background:var(--paper);color:var(--ink);padding-bottom:calc(68px + env(safe-area-inset-bottom))}
+body.home-page .header{position:sticky!important;top:0;z-index:70;min-height:66px;padding:8px clamp(12px,3vw,28px);background:rgba(5,26,18,.94)!important;color:#fff;border-bottom:1px solid rgba(230,213,184,.18);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);box-shadow:0 6px 26px rgba(0,0,0,.08)}
+body.home-page .header nav{color:rgba(255,255,255,.78)}
+body.home-page .header nav a:hover,body.home-page .header nav a:focus-visible{color:var(--gold-light)}
+body.home-page .head-link{background:var(--gold)!important;color:var(--deep)!important;border-color:var(--gold)!important;min-height:44px;padding-inline:16px;font-size:13px}
+body.home-page .hero{display:grid!important;grid-template-columns:minmax(0,1fr)!important;grid-template-rows:auto auto!important;align-items:stretch!important;gap:0!important;min-height:0!important;height:auto!important;max-height:none!important;overflow:hidden!important;background:var(--deep)!important;color:#fff;border-bottom:1px solid rgba(197,160,89,.3)}
+body.home-page .hero-visual{grid-row:1!important;grid-column:1!important;position:relative!important;isolation:isolate;overflow:hidden;min-height:clamp(270px,43svh,420px);height:clamp(270px,43svh,420px);background:#10291f!important}
+body.home-page .hero-shrine{position:absolute!important;inset:0!important;display:block!important;width:100%!important;height:100%!important;max-width:none!important;max-height:none!important;object-fit:cover!important;object-position:67% 38%!important;filter:saturate(.92) contrast(1.03);z-index:0!important}
+body.home-page .hero-visual-shade{position:absolute;inset:0;z-index:0;background:linear-gradient(90deg,rgba(5,26,18,.02) 0%,rgba(5,26,18,.03) 48%,rgba(5,26,18,.14) 100%),linear-gradient(0deg,rgba(5,26,18,.46),transparent 42%);pointer-events:none}
+body.home-page .hero-visual .hero-person{display:block!important;position:absolute!important;left:-2%!important;right:auto!important;top:auto!important;bottom:0!important;inset-inline-start:-2%!important;inset-inline-end:auto!important;width:min(74%,390px)!important;height:94%!important;max-width:390px!important;max-height:100%!important;object-fit:contain!important;object-position:left bottom!important;margin:0!important;padding:0!important;filter:drop-shadow(0 14px 24px rgba(0,0,0,.24))!important;mask-image:none!important;z-index:2!important;pointer-events:none}
+body.home-page .hero-content{grid-row:2!important;grid-column:1!important;position:relative!important;order:initial!important;z-index:1!important;width:100%!important;max-width:760px!important;min-width:0!important;margin:0 auto!important;padding:28px 22px 34px!important;text-align:right!important;background:linear-gradient(145deg,#071d15,#051a12 72%)!important}
+body.home-page .hero .eyebrow{color:var(--gold-light);font-size:12px;margin-bottom:10px}
+body.home-page .hero .intro{color:#fff0cf;font-size:16px;margin-bottom:8px}
+body.home-page .hero h1{max-width:100%;font-size:clamp(31px,8.2vw,44px)!important;line-height:1.38!important;letter-spacing:0!important;margin:0 0 10px!important;text-wrap:balance}
+body.home-page .hero h1 em{color:var(--gold-light)!important}
+body.home-page .hero-p{max-width:570px;color:rgba(255,255,255,.82)!important;font-size:15px;line-height:1.95;margin:10px 0 10px}
+body.home-page .hero-assurance{font-size:12px;line-height:1.8;color:var(--gold-light);margin:0 0 20px;letter-spacing:.01em}
+body.home-page .hero .actions{display:flex!important;flex-direction:column!important;align-items:stretch!important;gap:10px!important;width:100%!important;margin-top:18px}
+body.home-page .hero .actions a{display:inline-flex!important;width:100%!important;max-width:440px!important;min-height:52px!important;justify-content:center!important;border-radius:14px!important;padding:13px 18px!important}
+body.home-page .hero .actions .btn{background:var(--gold)!important;color:var(--deep)!important;box-shadow:0 10px 26px rgba(197,160,89,.16)!important;border:1px solid var(--gold)!important}
+body.home-page .hero .actions .btn:hover{background:var(--gold-light)!important}
+body.home-page .hero .actions .soft-link{background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.2);color:#fff!important}
+body.home-page .hero-note,body.home-page .hero-foot,body.home-page .seal{display:none!important}
+body.home-page .welcome{padding-block:clamp(40px,7vw,76px);background:var(--paper)}
+body.home-page .welcome h2,body.home-page .section-head h2,body.home-page .health h2,body.home-page .contact h2{font-family:var(--serif);line-height:1.5}
+body.home-page .welcome h2 em,body.home-page .section-head h2 em,body.home-page .health h2 em,body.home-page .contact h2 em{color:#9b7738}
+body.home-page .journey{padding-block:clamp(44px,7vw,78px);background:var(--deep)!important;color:#fff}
+body.home-page .journey .section-head h2,body.home-page .journey .section-intro{color:#fff}
+body.home-page .journey .section-intro{color:rgba(255,255,255,.72)}
+body.home-page .journey .kicker{color:var(--gold-light)}
+body.home-page .steps{gap:12px}
+body.home-page .steps article{min-height:0;background:var(--green)!important;border:1px solid rgba(197,160,89,.26)!important;border-radius:18px;box-shadow:0 12px 28px rgba(0,0,0,.12);padding:22px 20px;transition:transform .2s,border-color .2s}
+body.home-page .steps article:hover{border-color:rgba(197,160,89,.7)!important;transform:translateY(-2px)}
+body.home-page .steps h3{color:#fff;font-size:17px}
+body.home-page .steps p{color:rgba(255,255,255,.68);line-height:1.9}
+body.home-page .steps .num,body.home-page .steps .step-icon,body.home-page .steps article>b{color:var(--gold-light)}
+body.home-page .journey .fine{color:rgba(255,255,255,.64)}
+body.home-page .moments{padding-block:clamp(40px,7vw,76px);background:#fff}
+body.home-page .poster{border-radius:16px;background-image:linear-gradient(145deg,rgba(5,26,18,.25),rgba(5,26,18,.86)),url('assets/images/imam-reza-shrine.webp');background-size:cover;background-position:center}
+body.home-page .poster.p1{background-position:68% 45%}
+body.home-page .poster.p2{background-position:35% center}
+body.home-page .poster.p3{background-position:82% center}
+body.home-page .health{padding-block:clamp(38px,6vw,70px);background:#ebe7de!important}
+body.home-page .health-photo{background-image:linear-gradient(0deg,rgba(5,26,18,.12),rgba(5,26,18,.02)),url('assets/images/imam-reza-hospital-building.webp')!important;background-size:cover!important;background-position:center!important;border:1px solid rgba(5,26,18,.1);box-shadow:0 14px 34px rgba(5,26,18,.1)}
+body.home-page .health .gold-text{color:#8c6b2f}
+body.home-page .content-hub-entry{padding-block:clamp(38px,6vw,64px);border-color:rgba(5,26,18,.12)}
+body.home-page .content-hub-entry .page-kicker{color:#8c6b2f}
+body.home-page .content-hub-entry .hub-link{background:var(--deep)!important;color:var(--gold-light)!important;border-radius:12px}
+body.home-page .contact{padding:clamp(34px,6vw,64px) 0;background:var(--deep)!important;color:#fff}
+body.home-page .contact .kicker{color:var(--gold-light)}
+body.home-page .contact p{color:rgba(255,255,255,.75)}
+body.home-page .contact .btn{background:var(--gold)!important;color:var(--deep)!important;max-width:460px}
+body.home-page .contact-quote{border-color:rgba(197,160,89,.35);background:rgba(255,255,255,.035)}
+body.home-page .faq-section{max-width:920px;margin-inline:auto;padding:36px 18px 50px}
+body.home-page .faq-section h2{font-size:clamp(24px,5vw,32px);color:var(--deep)}
+body.home-page .faq-section details{border-bottom:1px solid rgba(5,26,18,.14);padding:15px 2px}
+body.home-page .faq-section summary{font-weight:700;cursor:pointer;color:#15241c;line-height:1.8}
+body.home-page .faq-section details p{color:#536158;line-height:1.95}
+body.home-page footer{background:#03120d!important;color:rgba(255,255,255,.74)}
+body.home-page .mobile-cta{background:rgba(5,26,18,.98)!important;color:#fff!important;border-top-color:var(--gold)!important;min-height:calc(64px + env(safe-area-inset-bottom));padding-bottom:calc(10px + env(safe-area-inset-bottom));backdrop-filter:blur(14px)}
+body.home-page .mobile-cta span{color:var(--gold-light)}
+@media(min-width:620px){
+ body.home-page{padding-bottom:0}
+ body.home-page .hero{grid-template-columns:minmax(0,1fr) minmax(0,1fr)!important;grid-template-rows:minmax(600px, min(78svh,800px))!important;min-height:600px!important;max-height:850px!important}
+ body.home-page .hero-visual{grid-column:2!important;grid-row:1!important;height:100%!important;min-height:600px!important}
+ body.home-page .hero-shrine{object-position:67% center!important}
+ body.home-page .hero-visual .hero-person{left:-1%!important;inset-inline-start:-1%!important;width:min(76%,500px)!important;height:94%!important;max-width:500px!important}
+ body.home-page .hero-content{grid-column:1!important;grid-row:1!important;align-self:center!important;justify-self:stretch!important;width:100%!important;max-width:none!important;padding:clamp(38px,5vw,72px) clamp(28px,4.6vw,76px)!important;background:linear-gradient(270deg,#051a12,#071e15 100%)!important}
+ body.home-page .hero h1{font-size:clamp(38px,4.4vw,60px)!important}
+ body.home-page .hero .actions{flex-direction:row!important;flex-wrap:wrap!important;align-items:center!important}
+ body.home-page .hero .actions a{width:auto!important;max-width:none!important}
+ body.home-page .hero .actions .btn{min-width:230px}
+ body.home-page .hero-assurance{font-size:13px}
+ body.home-page .steps{grid-template-columns:repeat(2,minmax(0,1fr))}
+ body.home-page .content-hub-entry{flex-direction:row;align-items:center;justify-content:space-between;gap:28px}
+ body.home-page .content-hub-entry>div{flex:1}
+}
+@media(min-width:900px){
+ body.home-page .hero{grid-template-columns:minmax(0,1.02fr) minmax(0,.98fr)!important}
+ body.home-page .hero-visual .hero-person{width:min(76%,560px)!important;max-width:560px!important}
+ body.home-page .steps{grid-template-columns:repeat(4,minmax(0,1fr))}
+}
+@media(max-width:380px){
+ body.home-page .header{padding-inline:9px;gap:6px}
+ body.home-page .brand-logo{width:102px;max-height:44px}
+ body.home-page .head-link{font-size:10px;padding-inline:8px}
+ body.home-page .hero-visual{height:260px;min-height:260px}
+ body.home-page .hero-visual .hero-person{width:77%!important;height:94%!important}
+ body.home-page .hero-content{padding-inline:16px!important}
+ body.home-page .hero h1{font-size:30px!important}
+}
+@media(prefers-reduced-motion:reduce){body.home-page .steps article{transition:none}body.home-page .steps article:hover{transform:none}}
