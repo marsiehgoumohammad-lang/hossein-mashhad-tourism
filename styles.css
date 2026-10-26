@@ -259,3 +259,11 @@ body.home-page .mobile-cta span{color:var(--gold-light)}
  body.home-page .hero h1{font-size:30px!important}
 }
 @media(prefers-reduced-motion:reduce){body.home-page .steps article{transition:none}body.home-page .steps article:hover{transform:none}}
+
+/* Accessible FAQ styling for article and market landing pages. */
+.site-page .page-faq{margin:34px 0;padding:22px;border:1px solid var(--line);border-radius:16px;background:rgba(255,255,255,.72)}
+.site-page .page-faq h2{margin:0 0 16px}
+.site-page .page-faq details{padding:14px 0;border-top:1px solid var(--line)}
+.site-page .page-faq summary{cursor:pointer;font-weight:700;line-height:1.8}
+.site-page .page-faq details p{margin:10px 0 0;line-height:1.9;color:var(--muted)}
+.hero-emotional{margin:12px 0 0;color:var(--gold,#c5a059);font-weight:700}
