@@ -3,7 +3,32 @@ const WHATSAPP_NUMBER = "989915147789";
 const DEFAULT_MESSAGE = "السلام عليكم، أود الاستفسار عن زيارة مشهد والخدمات السياحية. كيف يمكنكم مساعدتي؟";
 const WHATSAPP_URL = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(DEFAULT_MESSAGE)}`;
 
+function loadArabicFontsNonBlocking() {
+  const fontStylesheet = "https://fonts.googleapis.com/css2?family=Noto+Naskh+Arabic:wght@500;600;700&family=Noto+Sans+Arabic:wght@400;500;600;700&display=swap";
+  if (document.querySelector('link[data-arabic-fonts="true"]')) return;
+
+  const googleFonts = document.createElement("link");
+  googleFonts.rel = "preconnect";
+  googleFonts.href = "https://fonts.googleapis.com";
+  document.head.appendChild(googleFonts);
+
+  const googleFontsStatic = document.createElement("link");
+  googleFontsStatic.rel = "preconnect";
+  googleFontsStatic.href = "https://fonts.gstatic.com";
+  googleFontsStatic.crossOrigin = "anonymous";
+  document.head.appendChild(googleFontsStatic);
+
+  const stylesheet = document.createElement("link");
+  stylesheet.rel = "stylesheet";
+  stylesheet.href = fontStylesheet;
+  stylesheet.media = "print";
+  stylesheet.dataset.arabicFonts = "true";
+  stylesheet.onload = () => { stylesheet.media = "all"; };
+  document.head.appendChild(stylesheet);
+}
+
 function initializeSite() {
+  loadArabicFontsNonBlocking();
   const whatsappLinks = document.querySelectorAll("#whatsapp-link, #hero-whatsapp-link, .head-link, .mobile-cta");
   const setupWarning = document.getElementById("setup-warning");
   const year = document.getElementById("year");
