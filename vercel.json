@@ -9,7 +9,7 @@
     },
     {
       "source": "/accommodation-near-shrine.html",
-      "destination": "/accommodation-near-shrine",
+      "destination": "/hotels-near-shrine-comparison",
       "permanent": true
     },
     {
@@ -24,7 +24,7 @@
     },
     {
       "source": "/budget-and-luxury-hotels-mashhad.html",
-      "destination": "/budget-and-luxury-hotels-mashhad",
+      "destination": "/hotels-near-shrine-comparison",
       "permanent": true
     },
     {
@@ -74,7 +74,7 @@
     },
     {
       "source": "/hotels-mashhad-streets.html",
-      "destination": "/hotels-mashhad-streets",
+      "destination": "/hotels-near-shrine-comparison",
       "permanent": true
     },
     {
@@ -144,12 +144,12 @@
     },
     {
       "source": "/mashhad-food-shopping-souvenirs.html",
-      "destination": "/mashhad-food-shopping-souvenirs",
+      "destination": "/mashhad-local-food-guide",
       "permanent": true
     },
     {
       "source": "/mashhad-from-bahrain.html",
-      "destination": "/mashhad-from-bahrain",
+      "destination": "/mashhad-from-gulf",
       "permanent": true
     },
     {
@@ -164,7 +164,7 @@
     },
     {
       "source": "/mashhad-from-kuwait.html",
-      "destination": "/mashhad-from-kuwait",
+      "destination": "/mashhad-from-gulf",
       "permanent": true
     },
     {
@@ -209,7 +209,7 @@
     },
     {
       "source": "/mashhad-with-kids.html",
-      "destination": "/mashhad-with-kids",
+      "destination": "/mashhad-family-travel",
       "permanent": true
     },
     {
@@ -219,7 +219,7 @@
     },
     {
       "source": "/medical-travel-mashhad.html",
-      "destination": "/medical-travel-mashhad",
+      "destination": "/health-tourism",
       "permanent": true
     },
     {
@@ -259,7 +259,7 @@
     },
     {
       "source": "/public-transport-in-mashhad.html",
-      "destination": "/public-transport-in-mashhad",
+      "destination": "/transport-around-mashhad",
       "permanent": true
     },
     {
@@ -279,7 +279,7 @@
     },
     {
       "source": "/restaurants-near-imam-reza-shrine.html",
-      "destination": "/restaurants-near-imam-reza-shrine",
+      "destination": "/mashhad-local-food-guide",
       "permanent": true
     },
     {
@@ -310,6 +310,56 @@
     {
       "source": "/transport-around-mashhad.html",
       "destination": "/transport-around-mashhad",
+      "permanent": true
+    },
+    {
+      "source": "/accommodation-near-shrine",
+      "destination": "/hotels-near-shrine-comparison",
+      "permanent": true
+    },
+    {
+      "source": "/budget-and-luxury-hotels-mashhad",
+      "destination": "/hotels-near-shrine-comparison",
+      "permanent": true
+    },
+    {
+      "source": "/hotels-mashhad-streets",
+      "destination": "/hotels-near-shrine-comparison",
+      "permanent": true
+    },
+    {
+      "source": "/mashhad-food-shopping-souvenirs",
+      "destination": "/mashhad-local-food-guide",
+      "permanent": true
+    },
+    {
+      "source": "/mashhad-from-bahrain",
+      "destination": "/mashhad-from-gulf",
+      "permanent": true
+    },
+    {
+      "source": "/mashhad-from-kuwait",
+      "destination": "/mashhad-from-gulf",
+      "permanent": true
+    },
+    {
+      "source": "/mashhad-with-kids",
+      "destination": "/mashhad-family-travel",
+      "permanent": true
+    },
+    {
+      "source": "/medical-travel-mashhad",
+      "destination": "/health-tourism",
+      "permanent": true
+    },
+    {
+      "source": "/public-transport-in-mashhad",
+      "destination": "/transport-around-mashhad",
+      "permanent": true
+    },
+    {
+      "source": "/restaurants-near-imam-reza-shrine",
+      "destination": "/mashhad-local-food-guide",
       "permanent": true
     }
   ],
