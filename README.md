@@ -28,4 +28,4 @@ This is a static site. Open `index.html` in a browser or serve the directory wit
 The hero uses the Wikimedia Commons file [Imam Reza shrine.jpg](https://commons.wikimedia.org/wiki/File:Imam_Reza_shrine.jpg), credited on its source page to Mohammad Hosein Tabatabaeian and licensed CC BY-SA 3.0. Additional shrine images are loaded from Wikimedia Commons; verify each file page and preserve the applicable attribution/license notices when publishing.
 
 ## Deployment
-The site is static and can be deployed to GitHub Pages, Cloudflare Pages, Netlify, or Vercel. No build step is required.
+The site is static and deployed on Vercel (see `vercel.json` for redirects and headers). No build step is required.
