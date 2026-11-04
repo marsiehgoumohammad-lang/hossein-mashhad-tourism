@@ -10,3 +10,9 @@ Both assets were downloaded from Wikimedia Commons thumbnails and converted to W
 - `assets/images/mashhad-historical-hotel.webp` — adapted from [Historical Hotel Pars, Mashhad, right view](https://commons.wikimedia.org/wiki/File:Historical_Hotel_Pars,_Mashhad_,_right_view.jpg), Mjkhoshnood, CC BY-SA 4.0. The page caption clarifies this is not an endorsement or availability claim.
 - `assets/images/mashhad-bazaar.webp` — adapted from [سقف بازار فرش](https://commons.wikimedia.org/wiki/File:سقف_بازار_فرش.jpg), الهام خزائی, CC BY-SA 4.0.
 - `assets/images/imam-reza-hospital-building.webp` — adapted from [نمايي از ساختمانهاي قديمي بيمارستان امام رضا مشهد5](https://commons.wikimedia.org/wiki/File:نمايي_از_ساختمانهاي_قديمي_بيمارستان_امام_رضا_مشهد5.jpg), Naderzadegm1, CC BY-SA 4.0. Caption explicitly states the image does not verify current services or specialties.
+
+- `assets/images/about-hossein-portrait.webp` — portrait of Hossein (site asset a3), used on about page.
+- `assets/images/samples-program-shrine.webp` — adapted from RezaShrine.jpg, Wikimedia Commons.
+- `assets/images/local-food-bazaar.webp` — derived from mashhad-bazaar.webp (الهام خزائی, CC BY-SA 4.0).
+- `assets/images/transport-mashhad-airport.webp` — derived from mashhad-airport.webp (Kasir, CC BY-SA 4.0).
+- `assets/images/money-payments-shrine.webp` — golden dome / shrine visual for budget context, Wikimedia Commons.
