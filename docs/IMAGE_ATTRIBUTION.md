@@ -16,3 +16,8 @@ Both assets were downloaded from Wikimedia Commons thumbnails and converted to W
 - `assets/images/services-shrine-night.webp` — adapted from [Imam Reza shrine.jpg](https://commons.wikimedia.org/wiki/File:Imam_Reza_shrine.jpg), mohammad hosein tabatabaeian, CC BY-SA 3.0.
 - `assets/images/gulf-shrine-day.webp` — adapted from [RezaShrine.jpg](https://commons.wikimedia.org/wiki/File:RezaShrine.jpg), Wikimedia Commons.
 - `assets/images/visa-golden-dome.webp` — adapted from Imam Reza Shrine birthday anniversary image, Wikimedia Commons.
+- `assets/images/about-hossein-portrait.webp` — portrait of Hossein (site asset a3), used on about page.
+- `assets/images/samples-program-shrine.webp` — adapted from RezaShrine.jpg, Wikimedia Commons.
+- `assets/images/local-food-bazaar.webp` — derived from mashhad-bazaar.webp (الهام خزائی, CC BY-SA 4.0).
+- `assets/images/transport-mashhad-airport.webp` — derived from mashhad-airport.webp (Kasir, CC BY-SA 4.0).
+- `assets/images/money-payments-shrine.webp` — golden dome / shrine visual for budget context, Wikimedia Commons.
