@@ -266,3 +266,5 @@ body.home-page .mobile-cta span{color:var(--gold-light)}
 .site-page .page-faq summary{cursor:pointer;font-weight:700;line-height:1.8}
 .site-page .page-faq details p{margin:10px 0 0;line-height:1.9;color:var(--muted)}
 .hero-emotional{margin:12px 0 0;color:var(--gold,#c5a059);font-weight:700}
+
+.table-scroll{overflow-x:auto;margin:16px 0}.price-table{width:100%;border-collapse:collapse;font-size:15px;line-height:1.7}.price-table th,.price-table td{border:1px solid var(--line,#e5e7eb);padding:10px 12px;text-align:right;vertical-align:top}.price-table th{background:rgba(0,0,0,.04);font-weight:700}.price-note{margin:30px 0;padding:18px 20px;border:1px solid var(--line,#e5e7eb);border-radius:12px;background:rgba(0,0,0,.02)}.price-note h2{margin:0 0 10px;font-size:20px}.sources ul{padding-inline-start:20px}.sources li{margin:6px 0}
