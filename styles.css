@@ -507,3 +507,73 @@ button:focus-visible {
     justify-content: center;
   }
 }
+
+/* ---------- Content Hub (guides & blog) ---------- */
+.content-hub {
+  padding: 28px 16px 40px;
+  max-width: 480px;
+  margin: 0 auto;
+}
+.hub-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 10px;
+}
+.hub-card {
+  display: block;
+  background: var(--white);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  padding: 16px 16px 14px;
+  box-shadow: var(--shadow);
+  transition: border-color 0.2s, transform 0.15s;
+}
+.hub-card:active { transform: scale(0.99); }
+.hub-card:hover { border-color: var(--gold); }
+.hub-card h3 {
+  font-family: var(--font-naskh);
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--primary);
+  margin: 0 0 4px;
+}
+.hub-card p {
+  margin: 0 0 8px;
+  font-size: 0.82rem;
+  color: var(--muted);
+  line-height: 1.55;
+}
+.hub-arrow {
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: var(--gold);
+}
+.hub-card-blog {
+  border-color: var(--primary);
+  background: linear-gradient(135deg, #fff 0%, #f0f7f4 100%);
+}
+.service-card {
+  display: block;
+  color: inherit;
+}
+.more-link-wrap {
+  text-align: center;
+  margin: 16px 0 0;
+  padding: 0 16px;
+}
+.more-link {
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: var(--primary);
+}
+
+@media (min-width: 480px) {
+  .hub-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (min-width: 640px) {
+  .content-hub {
+    max-width: 560px;
+  }
+}
