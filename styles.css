@@ -648,3 +648,130 @@ button:focus-visible {
   min-height: 68vh;
   min-height: 68svh;
 }
+
+/* ========== Blog / Content Index ========== */
+.blog-main {
+  max-width: 520px;
+  margin: 0 auto;
+  padding: 0 0 24px;
+}
+.blog-hero {
+  padding: 28px 16px 16px;
+  text-align: center;
+}
+.blog-eyebrow {
+  margin: 0 0 6px;
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: var(--gold);
+  letter-spacing: 0.04em;
+}
+.blog-hero h1 {
+  font-family: var(--font-naskh);
+  font-size: 1.65rem;
+  font-weight: 700;
+  color: var(--primary);
+  margin: 0 0 10px;
+}
+.blog-intro {
+  margin: 0 auto;
+  max-width: 34ch;
+  font-size: 0.95rem;
+  color: var(--muted);
+  line-height: 1.7;
+}
+.cat-jump {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  justify-content: center;
+  padding: 8px 16px 20px;
+}
+.cat-jump a {
+  font-size: 0.78rem;
+  font-weight: 700;
+  color: var(--primary);
+  background: var(--white);
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  padding: 8px 12px;
+  min-height: 40px;
+  display: inline-flex;
+  align-items: center;
+}
+.cat-jump a:hover {
+  border-color: var(--gold);
+  background: #fffdf8;
+}
+.content-cat {
+  padding: 8px 16px 20px;
+}
+.content-cat h2 {
+  font-family: var(--font-naskh);
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: var(--primary);
+  margin: 0 0 10px;
+  padding-bottom: 8px;
+  border-bottom: 2px solid var(--gold);
+}
+.content-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  background: var(--white);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  overflow: hidden;
+  box-shadow: var(--shadow);
+}
+.content-list li + li {
+  border-top: 1px solid var(--border);
+}
+.content-list a {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 14px 16px;
+  min-height: 52px;
+  font-weight: 600;
+  color: var(--ink);
+  transition: background 0.15s;
+}
+.content-list a:active,
+.content-list a:hover {
+  background: #f7f3eb;
+}
+.cl-title {
+  flex: 1;
+  font-size: 0.92rem;
+  line-height: 1.45;
+}
+.cl-arrow {
+  color: var(--gold);
+  font-size: 1rem;
+  flex-shrink: 0;
+}
+.blog-cta {
+  margin: 12px 16px 28px;
+  padding: 28px 20px;
+  background: var(--primary);
+  color: #fff;
+  border-radius: var(--radius);
+  text-align: center;
+}
+.blog-cta h2 {
+  font-family: var(--font-naskh);
+  font-size: 1.2rem;
+  margin: 0 0 8px;
+  color: #fff;
+}
+.blog-cta p {
+  margin: 0 0 16px;
+  opacity: 0.9;
+  font-size: 0.9rem;
+}
+.blog-index-page .site-footer {
+  margin-bottom: 0;
+}
