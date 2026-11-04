@@ -262,7 +262,7 @@ button, a { -webkit-tap-highlight-color: transparent; }
 
 /* ---------- Services ---------- */
 .services {
-  padding: 40px 16px;
+  padding: 28px 16px 40px;
   max-width: 480px;
   margin: 0 auto;
 }
@@ -303,7 +303,7 @@ button, a { -webkit-tap-highlight-color: transparent; }
 
 /* ---------- About Hossein (Prominent) ---------- */
 .about-hossein {
-  padding: 16px 16px 40px;
+  padding: 20px 16px 28px;
   max-width: 480px;
   margin: 0 auto;
 }
