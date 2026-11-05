@@ -1174,3 +1174,112 @@ body.blog-index-page .mobile-cta {
   gap: 8px;
   margin: 0 0 16px;
 }
+
+
+/* ---- Extra content variants (simple header / tables / card-grid) ---- */
+body:not(.home-page):not(.blog-index-page) header {
+  min-height: 64px;
+  padding: 10px 14px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  background: rgba(248, 245, 240, 0.97);
+  border-bottom: 1px solid var(--border);
+  position: sticky;
+  top: 0;
+  z-index: 70;
+  flex-wrap: wrap;
+}
+body:not(.home-page):not(.blog-index-page) header nav {
+  display: none;
+  gap: 14px;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--muted);
+}
+body:not(.home-page):not(.blog-index-page) header nav a:hover {
+  color: var(--primary);
+}
+@media (min-width: 900px) {
+  body:not(.home-page):not(.blog-index-page) header nav {
+    display: flex;
+  }
+}
+.menu-toggle span {
+  display: block;
+  width: 18px;
+  height: 2px;
+  background: var(--primary);
+  margin: 3px 0;
+  border-radius: 1px;
+}
+.menu-toggle {
+  flex-direction: column;
+}
+.article-content { max-width: 100%; }
+.lead {
+  font-size: 1.05rem;
+  line-height: 1.85;
+  color: var(--muted);
+  margin: 0 0 20px;
+}
+.card-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 12px;
+  margin: 12px 0 24px;
+}
+@media (min-width: 560px) {
+  .card-grid { grid-template-columns: 1fr 1fr; }
+}
+.button, a.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 48px;
+  padding: 12px 18px;
+  border-radius: 999px;
+  font-weight: 700;
+  background: var(--primary);
+  color: #fff !important;
+}
+.table-wrap, .table-scroll {
+  overflow-x: auto;
+  margin: 16px 0 24px;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  background: #fff;
+}
+.price-table, table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.9rem;
+}
+.price-table th, .price-table td,
+table th, table td {
+  padding: 10px 12px;
+  border-bottom: 1px solid var(--border);
+  text-align: right;
+}
+.price-table th, table th {
+  background: rgba(11,61,46,0.06);
+  color: var(--primary);
+  font-weight: 700;
+}
+.price-note {
+  font-size: 0.85rem;
+  color: var(--muted);
+  margin: 8px 0 20px;
+}
+.page-faq details,
+.faq-item {
+  background: #fff;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 12px 14px;
+  margin: 10px 0;
+}
+.faq-section h2 { margin-bottom: 12px; }
+.article-section { margin: 24px 0; }
+
