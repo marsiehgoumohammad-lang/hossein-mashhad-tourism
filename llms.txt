@@ -1,6 +1,6 @@
 # Hossein Mashhad Tourism — llms.txt
 # https://hossein-mashhad-tourism.vercel.app/
-# Last updated: 2026-11-05
+# Last updated: 2026-11-06
 
 > Arabic-language personal companion service for religious and medical visitors to Mashhad (Imam Reza Shrine), Iran.
 > Target markets (priority order): Iraq, Kuwait, Bahrain, Oman, Qatar, UAE, Lebanon and other Arabic-speaking countries.
@@ -50,6 +50,9 @@ Hussein is a local Arabic-speaking companion in Mashhad who helps Arab visitors 
 - Pricing: Indicative USD ranges collected from public sources; always confirm current price, inclusions and cancellation terms in writing before any payment.
 - Brand positioning: Personal service by Hussein, not an anonymous company. Trust, transparency, local expertise, direct communication.
 - Target intent: Practical answers for Arab pilgrims and medical travelers planning a trip to Mashhad.
+
+## Sitemap
+- XML sitemap: https://hossein-mashhad-tourism.vercel.app/sitemap.xml
 
 ## Contact
 Primary channel: WhatsApp https://wa.me/989915147789
