@@ -1177,7 +1177,8 @@ body.blog-index-page .mobile-cta {
 
 
 /* ---- Extra content variants (simple header / tables / card-grid) ---- */
-body:not(.home-page):not(.blog-index-page) header {
+body:not(.home-page):not(.blog-index-page) .site-header,
+body:not(.home-page):not(.blog-index-page) header.header {
   min-height: 64px;
   padding: 10px 14px;
   display: flex;
@@ -1191,18 +1192,21 @@ body:not(.home-page):not(.blog-index-page) header {
   z-index: 70;
   flex-wrap: wrap;
 }
-body:not(.home-page):not(.blog-index-page) header nav {
+body:not(.home-page):not(.blog-index-page) .site-header nav,
+body:not(.home-page):not(.blog-index-page) header.header nav {
   display: none;
   gap: 14px;
   font-size: 13px;
   font-weight: 600;
   color: var(--muted);
 }
-body:not(.home-page):not(.blog-index-page) header nav a:hover {
+body:not(.home-page):not(.blog-index-page) .site-header nav a:hover,
+body:not(.home-page):not(.blog-index-page) header.header nav a:hover {
   color: var(--primary);
 }
 @media (min-width: 900px) {
-  body:not(.home-page):not(.blog-index-page) header nav {
+  body:not(.home-page):not(.blog-index-page) .site-header nav,
+body:not(.home-page):not(.blog-index-page) header.header nav {
     display: flex;
   }
 }
