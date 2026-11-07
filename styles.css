@@ -1287,3 +1287,21 @@ table th, table td {
 .faq-section h2 { margin-bottom: 12px; }
 .article-section { margin: 24px 0; }
 
+
+/* Dropdown positioning for hamburger navigation on site-header article pages. */
+.site-header .menu-toggle {
+  position: absolute;
+  inset-inline-end: 16px;
+  top: 8px;
+}
+.site-header .site-menu {
+  position: absolute;
+  top: 100%;
+  inset-inline: 0;
+  width: 100%;
+  padding: 12px 16px 16px;
+  background: var(--cream);
+  border-bottom: 1px solid var(--border);
+  box-shadow: var(--shadow);
+  z-index: 60;
+}
