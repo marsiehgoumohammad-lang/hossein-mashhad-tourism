@@ -1341,3 +1341,85 @@ footer .footer-nav a span {
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 }
+
+/* ---------- Interactive Trip Budget Estimator ---------- */
+.trip-calc {
+  background: var(--white);
+  border: 2px solid var(--gold);
+  border-radius: var(--radius);
+  padding: 20px 16px;
+  margin: 24px 0;
+  box-shadow: var(--shadow);
+}
+.trip-calc h2 {
+  margin-top: 0;
+  color: var(--primary);
+}
+.calc-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 12px;
+  margin: 16px 0;
+}
+@media (min-width: 620px) {
+  .calc-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+.calc-field {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.calc-field label {
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: var(--primary);
+}
+.calc-field select,
+.calc-field input {
+  min-height: 46px;
+  padding: 10px 12px;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  font-family: var(--font-sans);
+  font-size: 0.98rem;
+  background: var(--cream);
+  color: var(--ink);
+}
+.calc-result {
+  background: var(--cream);
+  border: 1px solid var(--border);
+  border-inline-start: 4px solid var(--primary);
+  border-radius: 12px;
+  padding: 16px;
+  margin-top: 14px;
+}
+.calc-total {
+  font-family: var(--font-naskh);
+  font-size: 1.35rem;
+  font-weight: 700;
+  color: var(--primary);
+  margin: 0 0 8px;
+}
+.calc-breakdown {
+  margin: 0;
+  padding-inline-start: 1.2rem;
+  font-size: 0.92rem;
+  color: var(--ink);
+}
+.calc-breakdown li {
+  margin: 4px 0;
+}
+.calc-disclaimer {
+  font-size: 0.84rem;
+  color: var(--muted);
+  margin: 10px 0 0;
+}
+.calc-actions {
+  margin-top: 14px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+

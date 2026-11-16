@@ -83,6 +83,86 @@ function ensureFooterNavStyles() {
   document.head.appendChild(style);
 }
 
+function initializeTripCalculator() {
+  const root = document.querySelector("[data-trip-calculator]");
+  if (!root || root.dataset.calcReady === "true") return;
+  root.dataset.calcReady = "true";
+
+  const nightsEl = root.querySelector("#calc-nights");
+  const travelersEl = root.querySelector("#calc-travelers");
+  const roomsEl = root.querySelector("#calc-rooms");
+  const tierEl = root.querySelector("#calc-tier");
+  const originEl = root.querySelector("#calc-origin");
+  const totalEl = root.querySelector("[data-calc-total]");
+  const breakdownEl = root.querySelector("[data-calc-breakdown]");
+  const originNoteEl = root.querySelector("[data-calc-origin-note]");
+  const waBtn = root.querySelector("[data-calc-wa]");
+
+  if (!nightsEl || !travelersEl || !roomsEl || !tierEl || !totalEl || !breakdownEl) return;
+
+  const TIERS = {
+    budget: { label: "فندق اقتصادي / ٣ نجوم", min: 30, max: 75 },
+    four: { label: "فندق ٤ نجوم", min: 50, max: 125 },
+    five: { label: "فندق ٥ نجوم", min: 55, max: 135 },
+  };
+
+  const toAr = (n) => Number(n).toLocaleString("ar-EG");
+
+  const update = () => {
+    const nights = Math.max(1, Math.min(30, Number(nightsEl.value) || 4));
+    const travelers = Math.max(1, Math.min(15, Number(travelersEl.value) || 2));
+    const rooms = Math.max(1, Math.min(8, Number(roomsEl.value) || 1));
+    const tier = TIERS[tierEl.value] || TIERS.budget;
+    const origin = originEl ? originEl.value : "iraq";
+
+    const hotelMin = nights * rooms * tier.min;
+    const hotelMax = nights * rooms * tier.max;
+    const dailyMin = nights * travelers * 21;
+    const dailyMax = nights * travelers * 56;
+    const taxiMin = travelers >= 4 ? 32 : 22;
+    const taxiMax = travelers >= 4 ? 65 : 46;
+
+    const totalMin = hotelMin + dailyMin + taxiMin;
+    const totalMax = hotelMax + dailyMax + taxiMax;
+
+    totalEl.textContent = `النطاق التقديري داخل مشهد: ${toAr(totalMin)} – ${toAr(totalMax)} دولار أمريكي`;
+    breakdownEl.innerHTML = "";
+    const rows = [
+      `الإقامة (${toAr(nights)} ليالٍ × ${toAr(rooms)} غرفة — ${tier.label}): ${toAr(hotelMin)}–${toAr(hotelMax)} دولار`,
+      `الطعام والتنقل اليومي داخل مشهد (${toAr(travelers)} مسافر × ${toAr(nights)} أيام): ${toAr(dailyMin)}–${toAr(dailyMax)} دولار`,
+      `نقل المطار ذهاباً وإياباً التقديري: ${toAr(taxiMin)}–${toAr(taxiMax)} دولار`,
+    ];
+    rows.forEach((text) => {
+      const li = document.createElement("li");
+      li.textContent = text;
+      breakdownEl.appendChild(li);
+    });
+
+    if (originNoteEl) {
+      if (origin === "iraq") {
+        originNoteEl.textContent = "للمسافر من العراق: لا يشمل الحساب تذكرة الطيران أو النقل البري؛ راجع سعر صرف الدولار مقابل الدينار العراقي في يوم الحجز ولا تعتمد تقديراً قديماً.";
+      } else if (origin === "gulf") {
+        originNoteEl.textContent = "للمسافر من الخليج: لا يشمل الحساب تذاكر الطيران الإقليمية أو رسوم المواسم الدينية أو التسوق الشخصي.";
+      } else {
+        originNoteEl.textContent = "للمسافر من لبنان وسائر الدول: لا يشمل الحساب تذاكر الطيران الدولي أو أي إجراءات طبية.";
+      }
+    }
+
+    if (waBtn) {
+      const msg = `السلام عليكم، أستفسر عن تنسيق رحلة مشهد لـ ${travelers} مسافر لمدة ${nights} ليالٍ (${rooms} غرفة - ${tier.label})، والتقدير الظاهر بالجدول ${totalMin}-${totalMax} دولار دون الطيران. ما التوفر والسعر الفعلي لتواريخي؟`;
+      waBtn.href = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(msg)}`;
+    }
+  };
+
+  [nightsEl, travelersEl, roomsEl, tierEl, originEl].forEach((el) => {
+    if (el) {
+      el.addEventListener("change", update);
+      el.addEventListener("input", update);
+    }
+  });
+  update();
+}
+
 function initializeSite() {
   loadArabicFontsNonBlocking();
   const whatsappLinks = document.querySelectorAll("#whatsapp-link, #hero-whatsapp-link, .head-link, .mobile-cta, .header-wa");
@@ -111,6 +191,8 @@ function initializeSite() {
     `;
     document.head.appendChild(style);
   }
+
+  initializeTripCalculator();
 
   const button = document.querySelector(".menu-toggle");
   const menu = document.getElementById("site-menu");

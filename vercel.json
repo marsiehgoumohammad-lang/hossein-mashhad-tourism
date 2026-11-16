@@ -13,6 +13,11 @@
       "permanent": true
     },
     {
+      "source": "/arabic-driver-guide-mashhad.html",
+      "destination": "/arabic-driver-guide-mashhad",
+      "permanent": true
+    },
+    {
       "source": "/best-time-to-visit-mashhad.html",
       "destination": "/best-time-to-visit-mashhad",
       "permanent": true
@@ -60,6 +65,11 @@
     {
       "source": "/guide-ziyarah-imam-reza.html",
       "destination": "/guide-ziyarah-imam-reza",
+      "permanent": true
+    },
+    {
+      "source": "/hair-transplant-mashhad.html",
+      "destination": "/hair-transplant-mashhad",
       "permanent": true
     },
     {
@@ -203,6 +213,11 @@
       "permanent": true
     },
     {
+      "source": "/mashhad-shopping-malls-waterparks.html",
+      "destination": "/mashhad-shopping-malls-waterparks",
+      "permanent": true
+    },
+    {
       "source": "/mashhad-trip-cost.html",
       "destination": "/mashhad-trip-cost",
       "permanent": true
@@ -280,6 +295,11 @@
     {
       "source": "/restaurants-near-imam-reza-shrine.html",
       "destination": "/mashhad-local-food-guide",
+      "permanent": true
+    },
+    {
+      "source": "/rhinoplasty-mashhad.html",
+      "destination": "/rhinoplasty-mashhad",
       "permanent": true
     },
     {

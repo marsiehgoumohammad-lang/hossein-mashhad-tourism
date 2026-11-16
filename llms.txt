@@ -1,6 +1,6 @@
 # Hossein Mashhad Tourism — llms.txt
 # https://hossein-mashhad-tourism.vercel.app/
-# Last updated: 2026-11-15
+# Last updated: 2026-11-16
 
 > Arabic-language personal companion and travel-coordination platform for religious pilgrims and medical travelers visiting Mashhad (Imam Reza Shrine), Iran.
 > Target markets: Iraq, Kuwait, Bahrain, Oman, Qatar, UAE, Saudi Arabia, Lebanon, and Arabic-speaking travelers worldwide.
@@ -15,7 +15,7 @@ Hussein is an Arabic-speaking local companion in Mashhad, Iran who assists Arab 
 - Services overview: https://hossein-mashhad-tourism.vercel.app/services — Airport transfer, hotel/apartment options, daily transport, medical logistics, and written-confirmation workflow.
 - Sample itineraries: https://hossein-mashhad-tourism.vercel.app/samples — Flexible 3-day, 5-day, and 7-day (Mashhad + Qom / treatment) planning templates.
 - Testimonials & verification policy: https://hossein-mashhad-tourism.vercel.app/testimonials — Strict policy against fabricated star ratings and 5 practical verification criteria for visitors.
-- Full content index: https://hossein-mashhad-tourism.vercel.app/blog — Thematic directory covering all 52 Arabic travel and medical guides.
+- Full content index: https://hossein-mashhad-tourism.vercel.app/blog — Thematic directory covering all 56 Arabic travel and medical guides.
 
 ## Pilgrimage & Mashhad Pillar cluster
 - Mashhad Holy City (Main Pillar): https://hossein-mashhad-tourism.vercel.app/mashhad-holy-city — Comprehensive Arabic hub linking ziyarah, stay, transport, family logistics, and health tourism.
@@ -33,6 +33,7 @@ Hussein is an Arabic-speaking local companion in Mashhad, Iran who assists Arab 
 - Family & children travel: https://hossein-mashhad-tourism.vercel.app/mashhad-family-travel — Room sizing, pacing, child needs, and multi-generational comfort.
 - Elderly & limited mobility access: https://hossein-mashhad-tourism.vercel.app/mashhad-accessibility-elderly — Elevator verification, wheelchair gates, drop-off points, and flat shrine access.
 - Things to do in Mashhad: https://hossein-mashhad-tourism.vercel.app/things-to-do-in-mashhad — City parks, cultural quarters, markets, and balancing leisure with shrine visits.
+- Shopping malls, indoor waterparks & villas: https://hossein-mashhad-tourism.vercel.app/mashhad-shopping-malls-waterparks — Guide to Almas Shargh, Proma, Armitaj malls, Mojhaye Abi & Waves indoor waterparks, and Shandiz/Torghabeh family villas.
 - Day trips from Mashhad: https://hossein-mashhad-tourism.vercel.app/day-trips-from-mashhad — Shandiz, Torghabeh, and Tous half-day and family excursions.
 - Museums & cultural places: https://hossein-mashhad-tourism.vercel.app/mashhad-museums-and-cultural-places — Razavi Museum, Nader Shah complex, Ferdowsi/Tous, and checking opening hours.
 - Local food & markets: https://hossein-mashhad-tourism.vercel.app/mashhad-local-food-guide — Mashhad cuisine, hygiene checks, safe dining for families and patients.
@@ -47,6 +48,7 @@ Hussein is an Arabic-speaking local companion in Mashhad, Iran who assists Arab 
 - Trip cost breakdown (USD): https://hossein-mashhad-tourism.vercel.app/mashhad-trip-cost — Transparent budget categories (stay, airport transfer, food, transport, contingency).
 - Airport to shrine transfer: https://hossein-mashhad-tourism.vercel.app/mashhad-airport-to-shrine — Metro, official airport taxi, app-hailing, and pre-arranged pickup comparison.
 - Transport around Mashhad: https://hossein-mashhad-tourism.vercel.app/transport-around-mashhad — Mashhad metro lines, Snapp/Tap30 considerations, private driver options, and intercity links.
+- Arabic-speaking driver, translator & guide: https://hossein-mashhad-tourism.vercel.app/arabic-driver-guide-mashhad — Private bilingual Arabic-Persian driver, city/Shandiz tour companion, and hospital translation coordination.
 - Flight delays & schedule changes: https://hossein-mashhad-tourism.vercel.app/flight-delay-and-travel-changes — Step-by-step handling for flight disruptions, hotel check-in holds, and clinic rescheduling.
 - Travel & medical insurance guide: https://hossein-mashhad-tourism.vercel.app/iran-travel-insurance-guide — Policy verification, emergency coverage exclusions, and medical trip coverage questions.
 - Money & payments in Iran: https://hossein-mashhad-tourism.vercel.app/money-and-payments-in-iran — Rial vs Toman arithmetic, foreign currency exchange safety, and tourist card rules.
@@ -66,7 +68,9 @@ Hussein is an Arabic-speaking local companion in Mashhad, Iran who assists Arab 
 - Ophthalmology & eye surgery: https://hossein-mashhad-tourism.vercel.app/ophthalmology-mashhad — Corneal topography/OCT, contact-lens pause rules, and post-retina-gas flight bans.
 - Dentistry & dental implants: https://hossein-mashhad-tourism.vercel.app/dentistry-mashhad — OPG/CBCT scans, 1-visit prosthetics vs 2-stage bone-graft implants, and written specs.
 - Infertility & IVF: https://hossein-mashhad-tourism.vercel.app/infertility-treatment-mashhad — Cycle-day timing, AMH/hormone panels, legalized marriage docs, and extended apartment stays.
-- Plastic & reconstructive surgery: https://hossein-mashhad-tourism.vercel.app/plastic-surgery-mashhad — Board-credential verification, realistic swelling timelines, and safe recovery stays.
+- Plastic & reconstructive surgery: https://hossein-mashhad-tourism.vercel.app/plastic-surgery-mashhad — Board-credential verification for body contouring, eyelids, and reconstructive care.
+- Rhinoplasty (nose surgery): https://hossein-mashhad-tourism.vercel.app/rhinoplasty-mashhad — ENT/plastic board verification, splint timing, swelling stages, and safe flight timelines.
+- Hair & beard transplant: https://hossein-mashhad-tourism.vercel.app/hair-transplant-mashhad — FUE/DHI/SUT method comparison, pre-op blood screening, 3–5 day wash & flight checklist.
 - Neurosurgery & spine: https://hossein-mashhad-tourism.vercel.app/neurosurgery-mashhad — Original MRI DICOM review, emergency red flags, and ergonomic hotel/transport planning.
 - Kidney & urology: https://hossein-mashhad-tourism.vercel.app/kidney-urology-mashhad — KUB CT, creatinine/eGFR, urine culture clearance, DJ-stent removal, and dialysis booking.
 - Digestive diseases & GI: https://hossein-mashhad-tourism.vercel.app/digestive-diseases-mashhad — Previous biopsy/MRCP records, fasting/prep timing, biopsy turnaround, and mild diet lodging.
