@@ -15,7 +15,7 @@ Hussein is an Arabic-speaking local companion in Mashhad, Iran who assists Arab 
 - Services overview: https://hossein-mashhad-tourism.vercel.app/services — Airport transfer, hotel/apartment options, daily transport, medical logistics, and written-confirmation workflow.
 - Sample itineraries: https://hossein-mashhad-tourism.vercel.app/samples — Flexible 3-day, 5-day, and 7-day (Mashhad + Qom / treatment) planning templates.
 - Testimonials & verification policy: https://hossein-mashhad-tourism.vercel.app/testimonials — Strict policy against fabricated star ratings and practical field-proof verification criteria for visitors.
-- Full content index: https://hossein-mashhad-tourism.vercel.app/blog — Interactive searchable thematic directory covering all 67 Arabic travel, hotel, hospital, and medical guides.
+- Full content index: https://hossein-mashhad-tourism.vercel.app/blog — Interactive searchable thematic directory covering all 75 Arabic travel, hotel, tourism, saffron/zereshk trade, hospital, and medical guides.
 
 ## Pilgrimage & Mashhad Pillar cluster
 - Mashhad Holy City (Main Pillar): https://hossein-mashhad-tourism.vercel.app/mashhad-holy-city — Comprehensive Arabic hub linking ziyarah, stay, transport, family logistics, and health tourism.
@@ -40,11 +40,18 @@ Hussein is an Arabic-speaking local companion in Mashhad, Iran who assists Arab 
 - Family & children travel: https://hossein-mashhad-tourism.vercel.app/mashhad-family-travel — Room sizing, pacing, child needs, and multi-generational comfort.
 - Elderly & limited mobility access: https://hossein-mashhad-tourism.vercel.app/mashhad-accessibility-elderly — Elevator verification, wheelchair gates, drop-off points, and flat shrine access.
 - Things to do in Mashhad: https://hossein-mashhad-tourism.vercel.app/things-to-do-in-mashhad — City parks, cultural quarters, markets, and balancing leisure with shrine visits.
-- Shopping malls, indoor waterparks & villas: https://hossein-mashhad-tourism.vercel.app/mashhad-shopping-malls-waterparks — Guide to Almas Shargh, Proma, Armitaj malls, Mojhaye Abi & Waves indoor waterparks, and Shandiz/Torghabeh family villas.
+- Shopping malls, indoor waterparks & villas: https://hossein-mashhad-tourism.vercel.app/mashhad-shopping-malls-waterparks — Overview of Almas Shargh, Proma, Armitaj malls, waterparks, and Shandiz/Torghabeh villas.
+- Mashhad indoor waterparks guide: https://hossein-mashhad-tourism.vercel.app/mashhad-waterparks-guide — Detailed Arabic guide to Mojhaye Abi, Mojhaye Khoroshan, Park Saheli Aftab, and Park Iranian (women/men schedules, VIP pools, safety, and transport).
+- Torghabeh, Shandiz & mountain valleys guide: https://hossein-mashhad-tourism.vercel.app/torghabeh-shandiz-villages-mashhad — Summer/year-round mountain retreats including Torghabeh, Shandiz, Jaghargh, Golmakan, Zoshk, Kang village, and Chalidareh Lake.
+- Mashhad markets & wholesale bazaars guide: https://hossein-mashhad-tourism.vercel.app/mashhad-markets-shopping-guide — Traditional and wholesale markets: Bazaar Reza, Ferdowsi 1 & 2, Eisar Market (women's abayas, shawls, rusari, manteau workshops), and Vahid/Darya St (luggage & travel bags).
+- Mashhad parks & hiking trails guide: https://hossein-mashhad-tourism.vercel.app/mashhad-parks-hiking-guide — Family parks & soft mountain trails: Park Mellat, Koohsangi, Vakilabad, Park Khorshid (Bam-e Mashhad), and Koohpark.
 - Day trips from Mashhad: https://hossein-mashhad-tourism.vercel.app/day-trips-from-mashhad — Shandiz, Torghabeh, and Tous half-day and family excursions.
 - Museums & cultural places: https://hossein-mashhad-tourism.vercel.app/mashhad-museums-and-cultural-places — Razavi Museum, Nader Shah complex, Ferdowsi/Tous, and checking opening hours.
 - Local food & markets: https://hossein-mashhad-tourism.vercel.app/mashhad-local-food-guide — Mashhad cuisine, hygiene checks, safe dining for families and patients.
+- Mashhad restaurants, Shandiz shashlik & Degat ice cream: https://hossein-mashhad-tourism.vercel.app/mashhad-restaurants-shashlik-guide — Shandiz & Torghabeh shashlik restaurants, Moein Darbari (shrine branch & Pasdaran), family pizza spots, and famous Degat traditional saffron ice cream in Kooy-e Tollab (Alimardani).
 - Souvenirs & customs guide: https://hossein-mashhad-tourism.vercel.app/iran-souvenirs-customs-guide — Buying saffron, carpets, and nuts, baggage weights, and origin customs checks.
+- Qaenat Saffron guide (retail & wholesale): https://hossein-mashhad-tourism.vercel.app/qaenat-saffron-mashhad-guide — Flagship Arabic guide to authentic Qaenat saffron in Mashhad: Super Negin, Negin, Sargol, Pushal grades, purity & fraud-detection tests, lab certs, and retail/wholesale coordination via Hussein.
+- Qaenat Zereshk (barberry) guide (retail & wholesale): https://hossein-mashhad-tourism.vercel.app/qaenat-zereshk-barberry-mashhad-guide — Flagship Arabic guide to authentic Qaenat barberry in Mashhad: Pofaki (shade-dried) vs Daneh Anari, clean sorting, vacuum packaging, retail/wholesale supply, and Iraqi/Gulf customs shipping tips.
 
 ## Origin countries, visas & practical logistics
 - From Iraq: https://hossein-mashhad-tourism.vercel.app/mashhad-from-iraq — Baghdad, Najaf, and Basra flight routes vs overland options, budgets, and arrival prep.
@@ -59,6 +66,7 @@ Hussein is an Arabic-speaking local companion in Mashhad, Iran who assists Arab 
 - Flight delays & schedule changes: https://hossein-mashhad-tourism.vercel.app/flight-delay-and-travel-changes — Step-by-step handling for flight disruptions, hotel check-in holds, and clinic rescheduling.
 - Travel & medical insurance guide: https://hossein-mashhad-tourism.vercel.app/iran-travel-insurance-guide — Policy verification, emergency coverage exclusions, and medical trip coverage questions.
 - Money & payments in Iran: https://hossein-mashhad-tourism.vercel.app/money-and-payments-in-iran — Rial vs Toman arithmetic, foreign currency exchange safety, and tourist card rules.
+- Trusted local representative, escrow & asset inspection in Mashhad: https://hossein-mashhad-tourism.vercel.app/mashhad-trusted-representative-escrow-guide — Hussein's trusted local representative services in Mashhad: recovering stuck funds and remitting via licensed sarrafi exchange, plus live video field inspection of apartments, cars, and wholesale merchandise before payment.
 - SIM card & internet in Iran: https://hossein-mashhad-tourism.vercel.app/sim-card-and-internet-in-iran — Passport registration at airport kiosks, mobile data plans, and app connectivity.
 - Packing checklist: https://hossein-mashhad-tourism.vercel.app/mashhad-packing-checklist — Seasonal clothing, documents, prescription medicines, and family items.
 - Persian phrases for Arab travelers: https://hossein-mashhad-tourism.vercel.app/persian-phrases-for-arab-travelers — Practical Arabic-phonetic Persian phrases for hotels, taxis, markets, and hospitals.

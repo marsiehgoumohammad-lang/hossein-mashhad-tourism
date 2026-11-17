@@ -243,6 +243,11 @@
       "permanent": true
     },
     {
+      "source": "/mashhad-markets-shopping-guide.html",
+      "destination": "/mashhad-markets-shopping-guide",
+      "permanent": true
+    },
+    {
       "source": "/mashhad-museums-and-cultural-places.html",
       "destination": "/mashhad-museums-and-cultural-places",
       "permanent": true
@@ -253,8 +258,18 @@
       "permanent": true
     },
     {
+      "source": "/mashhad-parks-hiking-guide.html",
+      "destination": "/mashhad-parks-hiking-guide",
+      "permanent": true
+    },
+    {
       "source": "/mashhad-pilgrimage-etiquette.html",
       "destination": "/mashhad-pilgrimage-etiquette",
+      "permanent": true
+    },
+    {
+      "source": "/mashhad-restaurants-shashlik-guide.html",
+      "destination": "/mashhad-restaurants-shashlik-guide",
       "permanent": true
     },
     {
@@ -265,6 +280,16 @@
     {
       "source": "/mashhad-trip-cost.html",
       "destination": "/mashhad-trip-cost",
+      "permanent": true
+    },
+    {
+      "source": "/mashhad-trusted-representative-escrow-guide.html",
+      "destination": "/mashhad-trusted-representative-escrow-guide",
+      "permanent": true
+    },
+    {
+      "source": "/mashhad-waterparks-guide.html",
+      "destination": "/mashhad-waterparks-guide",
       "permanent": true
     },
     {
@@ -320,6 +345,16 @@
     {
       "source": "/public-transport-in-mashhad.html",
       "destination": "/transport-around-mashhad",
+      "permanent": true
+    },
+    {
+      "source": "/qaenat-saffron-mashhad-guide.html",
+      "destination": "/qaenat-saffron-mashhad-guide",
+      "permanent": true
+    },
+    {
+      "source": "/qaenat-zereshk-barberry-mashhad-guide.html",
+      "destination": "/qaenat-zereshk-barberry-mashhad-guide",
       "permanent": true
     },
     {
@@ -380,6 +415,11 @@
     {
       "source": "/things-to-do-in-mashhad.html",
       "destination": "/things-to-do-in-mashhad",
+      "permanent": true
+    },
+    {
+      "source": "/torghabeh-shandiz-villages-mashhad.html",
+      "destination": "/torghabeh-shandiz-villages-mashhad",
       "permanent": true
     },
     {
