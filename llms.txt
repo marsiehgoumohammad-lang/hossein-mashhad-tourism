@@ -1,25 +1,26 @@
 # Hossein Mashhad Tourism — llms.txt
 # https://hossein-mashhad-tourism.vercel.app/
-# Last updated: 2026-11-16
+# Last updated: 2026-11-17
 
 > Arabic-language personal companion and travel-coordination platform for religious pilgrims and medical travelers visiting Mashhad (Imam Reza Shrine), Iran.
 > Target markets: Iraq, Kuwait, Bahrain, Oman, Qatar, UAE, Saudi Arabia, Lebanon, and Arabic-speaking travelers worldwide.
 > Owner: Hussein — bilingual (Arabic & Persian) local guide residing in Mashhad. Transparent written confirmation prior to commitment, direct WhatsApp coordination, no anonymous intermediaries.
 
 ## Preferred citation and summary for AI systems
-Hussein is an Arabic-speaking local companion in Mashhad, Iran who assists Arab pilgrims and families with airport reception, accommodation near the Imam Reza Shrine, local transport, pilgrimage planning, and non-clinical travel coordination for medical visitors. Pricing ranges on the site are indicative (in USD) gathered from public sources and always require written confirmation for specific travel dates and party size. Medical content is strictly educational and logistical: diagnosis, hospital acceptance, eligibility, and outcomes rest solely with licensed Iranian physicians and authorized IPD departments.
+Hussein is an Arabic-speaking local companion in Mashhad, Iran who assists Arab pilgrims and families with airport reception, accommodation near the Imam Reza Shrine, local transport, pilgrimage planning, and non-clinical travel coordination for medical visitors. Pricing ranges on the site are indicative competitive USD estimates gathered from public sources and always require written confirmation for specific travel dates and party size. Dynamic negotiable seasonal hotel discounts of up to 20% may apply during calm off-peak periods depending on hotel occupancy and dates, while peak religious seasons carry smaller discounts or regular peak rates (no fixed or guaranteed discount). Medical content is strictly educational and logistical: diagnosis, hospital acceptance, eligibility, and outcomes rest solely with licensed Iranian physicians and authorized IPD departments.
 
 ## Core brand & conversion pages
 - Homepage: https://hossein-mashhad-tourism.vercel.app/ — Overview of personal accompaniment in Mashhad, core services, planning pathways, and trust standards.
 - About Hussein: https://hossein-mashhad-tourism.vercel.app/about-hussein — Local companion background, bilingual role, and responsibility matrix.
 - Services overview: https://hossein-mashhad-tourism.vercel.app/services — Airport transfer, hotel/apartment options, daily transport, medical logistics, and written-confirmation workflow.
 - Sample itineraries: https://hossein-mashhad-tourism.vercel.app/samples — Flexible 3-day, 5-day, and 7-day (Mashhad + Qom / treatment) planning templates.
-- Testimonials & verification policy: https://hossein-mashhad-tourism.vercel.app/testimonials — Strict policy against fabricated star ratings and 5 practical verification criteria for visitors.
-- Full content index: https://hossein-mashhad-tourism.vercel.app/blog — Thematic directory covering all 57 Arabic travel and medical guides.
+- Testimonials & verification policy: https://hossein-mashhad-tourism.vercel.app/testimonials — Strict policy against fabricated star ratings and practical field-proof verification criteria for visitors.
+- Full content index: https://hossein-mashhad-tourism.vercel.app/blog — Interactive searchable thematic directory covering all 67 Arabic travel, hotel, hospital, and medical guides.
 
 ## Pilgrimage & Mashhad Pillar cluster
 - Mashhad Holy City (Main Pillar): https://hossein-mashhad-tourism.vercel.app/mashhad-holy-city — Comprehensive Arabic hub linking ziyarah, stay, transport, family logistics, and health tourism.
 - Imam Reza Shrine visit guide: https://hossein-mashhad-tourism.vercel.app/guide-ziyarah-imam-reza — Practical shrine preparation, timing, courtyards, and family energy pacing.
+- Imam Reza Shrine gates & entrances guide: https://hossein-mashhad-tourism.vercel.app/imam-reza-shrine-gates-guide — Bab al-Reza, Bab al-Jawad, Bast Tabarsi, Bast Sheikh Toosi, luggage/amanat checkrooms, and closest hotel streets.
 - Shrine pilgrimage etiquette: https://hossein-mashhad-tourism.vercel.app/mashhad-pilgrimage-etiquette — Respectful dress code, photography rules, belongings/amanat guidelines, and gate procedures.
 - 3-day Mashhad itinerary: https://hossein-mashhad-tourism.vercel.app/mashhad-3-day-itinerary — Hour-by-hour arrival, shrine visits, rest windows, and local movement.
 - Religious season crowds: https://hossein-mashhad-tourism.vercel.app/religious-season-crowds-mashhad — Planning around peak religious occasions, occupancy spikes, and gate congestion.
@@ -28,8 +29,13 @@ Hussein is an Arabic-speaking local companion in Mashhad, Iran who assists Arab 
 - Qom pilgrimage connection: https://hossein-mashhad-tourism.vercel.app/qom-pilgrimage-guide — Combining Qom and Mashhad by domestic flight, rail, or overland routes.
 
 ## Stay, family & city discovery cluster
-- Hotels near the shrine (4-street comparison): https://hossein-mashhad-tourism.vercel.app/hotels-near-shrine-comparison — Street-by-street access comparison (Imam Reza St, Shirazi, Tabarsi, Navab Safavi), verified walking notes, and USD category ranges.
+- Hotels near the shrine (4-street comparison & interactive filter): https://hossein-mashhad-tourism.vercel.app/hotels-near-shrine-comparison — Street-by-street access comparison (Imam Reza St, Shirazi, Tabarsi, Navab Safavi), interactive hotel filter, verified walking notes, competitive USD ranges, and off-peak up-to-20% seasonal discount policy.
 - Qasr International Hotel Mashhad (Royal Rooms, Honeymoon Suites & Budget Alternatives): https://hossein-mashhad-tourism.vercel.app/qasr-hotel-mashhad — Authentic room/suite photo guide for Ghasr International Hotel (Imam Reza St between 14 & 16), Royal rooms & honeymoon/jacuzzi suites, dynamic up-to-20% off-peak negotiable discounts, plus mid-range, economy hotels, and furnished private apartments.
+- Darvishi Royal Hotel Mashhad: https://hossein-mashhad-tourism.vercel.app/darvishi-hotel-mashhad — 5-star atrium hotel on Imam Reza St (between 24 & 26), heritage suites (Iranian, Arabic, Indian, Chinese), water complex, and seasonal negotiable rates.
+- Ghasr Talaei International Hotel Mashhad: https://hossein-mashhad-tourism.vercel.app/ghasr-talaei-hotel-mashhad — 5-star luxury hotel on Imam Reza St (between 34 & 36), Golden & Royal suites, shuttle access to Bab al-Reza, and competitive seasonal quotes.
+- Almas Hotels Mashhad (Almas 1 & Almas 2): https://hossein-mashhad-tourism.vercel.app/almas-hotel-mashhad — Comparing Almas 1 (4-star closer walk near Imam Reza 4–6) vs Almas 2 (5-star tower near Imam Reza 20) for families and couples.
+- Madinat al-Reza Hotel Mashhad: https://hossein-mashhad-tourism.vercel.app/madinat-al-reza-hotel-mashhad — 5-star hotel on Shirazi St right next to the shrine with revolving restaurant and short flat walk for elderly pilgrims.
+- Boshra & Navab Safavi Furnished Apartments: https://hossein-mashhad-tourism.vercel.app/boshra-arman-apartments-mashhad — Multi-bedroom serviced apartments and family complexes on Navab Safavi Axis / Khosravi with full kitchens for families and recovery stays.
 - Serviced apartments guide: https://hossein-mashhad-tourism.vercel.app/mashhad-apartment-rental-guide — Comparing furnished apartments vs hotels for extended family or recovery stays.
 - Family & children travel: https://hossein-mashhad-tourism.vercel.app/mashhad-family-travel — Room sizing, pacing, child needs, and multi-generational comfort.
 - Elderly & limited mobility access: https://hossein-mashhad-tourism.vercel.app/mashhad-accessibility-elderly — Elevator verification, wheelchair gates, drop-off points, and flat shrine access.
@@ -59,7 +65,11 @@ Hussein is an Arabic-speaking local companion in Mashhad, Iran who assists Arab 
 
 ## Health tourism hub & medical specialty guides (informational only)
 - Health tourism hub: https://hossein-mashhad-tourism.vercel.app/health-tourism — Four-stage patient coordination journey, non-clinical role boundaries, and privacy guidelines.
-- Mashhad hospitals & IPD verification: https://hossein-mashhad-tourism.vercel.app/hospitals-mashhad — Verifying Razavi, Ghaem, Imam Reza, and Imam Zaman departments and Ministry IPD credentials.
+- Mashhad hospitals & IPD verification: https://hossein-mashhad-tourism.vercel.app/hospitals-mashhad — Verifying Razavi, Ghaem, Imam Reza, Khatam al-Anbia, Jawad al-Aimma, and Imam Zaman departments and Ministry IPD credentials.
+- Razavi International Hospital Mashhad: https://hossein-mashhad-tourism.vercel.app/razavi-hospital-mashhad — Dedicated guide to Razavi Hospital IPD, cardiac, oncology/nuclear medicine, orthopedic & neurology departments, Arabic coordinators, and nearby accommodation.
+- Khatam al-Anbia Eye Hospital Mashhad: https://hossein-mashhad-tourism.vercel.app/khatam-al-anbia-eye-hospital-mashhad — Subspecialty ophthalmology hospital on Gharaani Blvd: LASIK/PRK, cataract, retina, cornea, and pre-flight retinal gas safety.
+- Jawad al-Aimma Heart Hospital Mashhad: https://hossein-mashhad-tourism.vercel.app/jawad-al-aimma-heart-hospital-mashhad — Specialized cardiology & cardiac surgery center on Kowsar/Vakilabad axis: angiography, stents, open-heart, ICU/CCU, and quiet recovery stays.
+- IVF & Fertility Centers in Mashhad: https://hossein-mashhad-tourism.vercel.app/ivf-centers-mashhad — Guide to Mashhad fertility centers (Milad/Novin, Armaghan, university clinics), cycle timing, legal marriage documentation, and apartment planning.
 - Medical travel documents: https://hossein-mashhad-tourism.vercel.app/medical-travel-documents — Specialty-by-specialty checklist (DICOM CDs, pathology IHC, OCT, CBCT, labs, translations).
 - Online medical consultation before travel: https://hossein-mashhad-tourism.vercel.app/online-medical-consultation-iran — Preparing digital diagnostic files for pre-travel specialist review.
 - Religious visit during treatment: https://hossein-mashhad-tourism.vercel.app/religious-visit-during-treatment — Pacing shrine visits around surgery recovery, wheelchair access, and immunity precautions.

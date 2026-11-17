@@ -13,6 +13,11 @@
       "permanent": true
     },
     {
+      "source": "/almas-hotel-mashhad.html",
+      "destination": "/almas-hotel-mashhad",
+      "permanent": true
+    },
+    {
       "source": "/arabic-driver-guide-mashhad.html",
       "destination": "/arabic-driver-guide-mashhad",
       "permanent": true
@@ -28,6 +33,11 @@
       "permanent": true
     },
     {
+      "source": "/boshra-arman-apartments-mashhad.html",
+      "destination": "/boshra-arman-apartments-mashhad",
+      "permanent": true
+    },
+    {
       "source": "/budget-and-luxury-hotels-mashhad.html",
       "destination": "/hotels-near-shrine-comparison",
       "permanent": true
@@ -40,6 +50,11 @@
     {
       "source": "/cardiac-surgery-mashhad.html",
       "destination": "/cardiac-surgery-mashhad",
+      "permanent": true
+    },
+    {
+      "source": "/darvishi-hotel-mashhad.html",
+      "destination": "/darvishi-hotel-mashhad",
       "permanent": true
     },
     {
@@ -60,6 +75,11 @@
     {
       "source": "/flight-delay-and-travel-changes.html",
       "destination": "/flight-delay-and-travel-changes",
+      "permanent": true
+    },
+    {
+      "source": "/ghasr-talaei-hotel-mashhad.html",
+      "destination": "/ghasr-talaei-hotel-mashhad",
       "permanent": true
     },
     {
@@ -93,6 +113,11 @@
       "permanent": true
     },
     {
+      "source": "/imam-reza-shrine-gates-guide.html",
+      "destination": "/imam-reza-shrine-gates-guide",
+      "permanent": true
+    },
+    {
       "source": "/index.html",
       "destination": "/",
       "permanent": true
@@ -123,8 +148,28 @@
       "permanent": true
     },
     {
+      "source": "/ivf-centers-mashhad.html",
+      "destination": "/ivf-centers-mashhad",
+      "permanent": true
+    },
+    {
+      "source": "/jawad-al-aimma-heart-hospital-mashhad.html",
+      "destination": "/jawad-al-aimma-heart-hospital-mashhad",
+      "permanent": true
+    },
+    {
+      "source": "/khatam-al-anbia-eye-hospital-mashhad.html",
+      "destination": "/khatam-al-anbia-eye-hospital-mashhad",
+      "permanent": true
+    },
+    {
       "source": "/kidney-urology-mashhad.html",
       "destination": "/kidney-urology-mashhad",
+      "permanent": true
+    },
+    {
+      "source": "/madinat-al-reza-hotel-mashhad.html",
+      "destination": "/madinat-al-reza-hotel-mashhad",
       "permanent": true
     },
     {
@@ -285,6 +330,11 @@
     {
       "source": "/qom-pilgrimage-guide.html",
       "destination": "/qom-pilgrimage-guide",
+      "permanent": true
+    },
+    {
+      "source": "/razavi-hospital-mashhad.html",
+      "destination": "/razavi-hospital-mashhad",
       "permanent": true
     },
     {

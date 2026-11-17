@@ -92,40 +92,50 @@ function initializeTripCalculator() {
   const travelersEl = root.querySelector("#calc-travelers");
   const roomsEl = root.querySelector("#calc-rooms");
   const tierEl = root.querySelector("#calc-tier");
+  const seasonEl = root.querySelector("#calc-season");
   const originEl = root.querySelector("#calc-origin");
   const totalEl = root.querySelector("[data-calc-total]");
   const breakdownEl = root.querySelector("[data-calc-breakdown]");
   const originNoteEl = root.querySelector("[data-calc-origin-note]");
+  const seasonNoteEl = root.querySelector("[data-calc-season-note]");
   const waBtn = root.querySelector("[data-calc-wa]");
 
   if (!nightsEl || !travelersEl || !roomsEl || !tierEl || !totalEl || !breakdownEl) return;
 
   const TIERS = {
-    budget: { label: "فندق اقتصادي / ٣ نجوم", min: 30, max: 75 },
-    four: { label: "فندق ٤ نجوم", min: 50, max: 125 },
-    five: { label: "فندق ٥ نجوم", min: 55, max: 135 },
+    budget: { label: "فندق اقتصادي / ٣ نجوم", min: 26, max: 65 },
+    four: { label: "فندق ٤ نجوم", min: 42, max: 110 },
+    five: { label: "فندق ٥ نجوم", min: 48, max: 125 },
   };
 
-  const toAr = (n) => Number(n).toLocaleString("ar-EG");
+  const SEASONS = {
+    offpeak: { label: "موسم هادئ (خارج الذروة)", mult: 0.84, note: "في الفترات الهادئة خارج الذروة قد تتاح خصومات تفاوضية على الإقامة الفندقية تصل إلى ٢٠٪ وفق الإشغال والتاريخ (تقدير غير مضمون ويُتحقق منه يوم الاستفسار)." },
+    regular: { label: "موسم معتدل", mult: 1.0, note: "الأسعار المعتادة تختلف بحسب الشارع وقرب الغرفة من موعد السفر؛ قد تتوفر عروض جزئية بالحجز المبكر." },
+    peak: { label: "موسم ذروة ومناسبات دينية", mult: 1.18, note: "في مواسم الزيارة الكبرى والعطل يرتفع الإشغال وتنخفض فرص الخصم الكبير؛ يُنصح بالتأكيد المبكر مكتوباً." },
+  };
+
+  const toAr = (n) => Number(Math.round(n)).toLocaleString("ar-EG");
 
   const update = () => {
     const nights = Math.max(1, Math.min(30, Number(nightsEl.value) || 4));
     const travelers = Math.max(1, Math.min(15, Number(travelersEl.value) || 2));
     const rooms = Math.max(1, Math.min(8, Number(roomsEl.value) || 1));
     const tier = TIERS[tierEl.value] || TIERS.budget;
+    const seasonKey = seasonEl ? seasonEl.value : "regular";
+    const season = SEASONS[seasonKey] || SEASONS.regular;
     const origin = originEl ? originEl.value : "iraq";
 
-    const hotelMin = nights * rooms * tier.min;
-    const hotelMax = nights * rooms * tier.max;
-    const dailyMin = nights * travelers * 21;
-    const dailyMax = nights * travelers * 56;
-    const taxiMin = travelers >= 4 ? 32 : 22;
-    const taxiMax = travelers >= 4 ? 65 : 46;
+    const hotelMin = Math.round(nights * rooms * tier.min * season.mult);
+    const hotelMax = Math.round(nights * rooms * tier.max * (seasonKey === "offpeak" ? 0.9 : season.mult));
+    const dailyMin = nights * travelers * 20;
+    const dailyMax = nights * travelers * 52;
+    const taxiMin = travelers >= 4 ? 30 : 20;
+    const taxiMax = travelers >= 4 ? 62 : 44;
 
     const totalMin = hotelMin + dailyMin + taxiMin;
     const totalMax = hotelMax + dailyMax + taxiMax;
 
-    totalEl.textContent = `النطاق التقديري داخل مشهد: ${toAr(totalMin)} – ${toAr(totalMax)} دولار أمريكي`;
+    totalEl.textContent = `النطاق التقديري داخل مشهد (${season.label}): ${toAr(totalMin)} – ${toAr(totalMax)} دولار أمريكي`;
     breakdownEl.innerHTML = "";
     const rows = [
       `الإقامة (${toAr(nights)} ليالٍ × ${toAr(rooms)} غرفة — ${tier.label}): ${toAr(hotelMin)}–${toAr(hotelMax)} دولار`,
@@ -138,29 +148,134 @@ function initializeTripCalculator() {
       breakdownEl.appendChild(li);
     });
 
+    if (seasonNoteEl) {
+      seasonNoteEl.textContent = season.note;
+    }
+
     if (originNoteEl) {
       if (origin === "iraq") {
-        originNoteEl.textContent = "للمسافر من العراق: لا يشمل الحساب تذكرة الطيران أو النقل البري؛ راجع سعر صرف الدولار مقابل الدينار العراقي في يوم الحجز ولا تعتمد تقديراً قديماً.";
+        originNoteEl.textContent = "للمسافر من العراق: الحساب لا يشمل تذكرة الطيران أو النقل البري؛ حوّل النطاق الموضح إلى الدينار العراقي حسب سعر الصرف السوقي في مدينتك يوم السفر ولا تعتمد تقديراً قديماً.";
       } else if (origin === "gulf") {
-        originNoteEl.textContent = "للمسافر من الخليج: لا يشمل الحساب تذاكر الطيران الإقليمية أو رسوم المواسم الدينية أو التسوق الشخصي.";
+        originNoteEl.textContent = "للمسافر من الخليج: الحساب لا يشمل تذاكر الطيران الإقليمية أو التسوق الشخصي؛ راجع سعر الصرف مقابل عملتك المحلية وقت الحجز.";
       } else {
         originNoteEl.textContent = "للمسافر من لبنان وسائر الدول: لا يشمل الحساب تذاكر الطيران الدولي أو أي إجراءات طبية.";
       }
     }
 
     if (waBtn) {
-      const msg = `السلام عليكم، أستفسر عن تنسيق رحلة مشهد لـ ${travelers} مسافر لمدة ${nights} ليالٍ (${rooms} غرفة - ${tier.label})، والتقدير الظاهر بالجدول ${totalMin}-${totalMax} دولار دون الطيران. ما التوفر والسعر الفعلي لتواريخي؟`;
+      const msg = `السلام عليكم، أستفسر عن تنسيق رحلة مشهد لـ ${travelers} مسافر لمدة ${nights} ليالٍ (${rooms} غرفة - ${tier.label} - ${season.label})، والتقدير الظاهر بالحاسبة ${totalMin}-${totalMax} دولار دون الطيران. ما التوفر والسعر والخصم الفعلي لتواريخي؟`;
       waBtn.href = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(msg)}`;
     }
   };
 
-  [nightsEl, travelersEl, roomsEl, tierEl, originEl].forEach((el) => {
+  [nightsEl, travelersEl, roomsEl, tierEl, seasonEl, originEl].forEach((el) => {
     if (el) {
       el.addEventListener("change", update);
       el.addEventListener("input", update);
     }
   });
   update();
+}
+
+function normalizeArabicText(str) {
+  return (str || "")
+    .toLowerCase()
+    .replace(/[\u064B-\u065F\u0670]/g, "")
+    .replace(/[أإآ]/g, "ا")
+    .replace(/ى/g, "ي")
+    .replace(/ة/g, "ه")
+    .trim();
+}
+
+function initializeBlogFilter() {
+  const searchInput = document.getElementById("blog-search");
+  const filterBar = document.querySelector("[data-blog-filters]");
+  if (!searchInput && !filterBar) return;
+
+  const sections = Array.from(document.querySelectorAll(".content-cat"));
+  const statusEl = document.getElementById("blog-filter-status");
+  let activeCat = "all";
+
+  const applyFilter = () => {
+    const query = normalizeArabicText(searchInput ? searchInput.value : "");
+    let visibleCount = 0;
+
+    sections.forEach((sec) => {
+      const catMatch = activeCat === "all" || sec.id === activeCat;
+      const items = Array.from(sec.querySelectorAll(".content-list li"));
+      let sectionMatches = 0;
+
+      items.forEach((li) => {
+        const text = normalizeArabicText(li.textContent);
+        const match = catMatch && (!query || text.includes(query));
+        li.classList.toggle("is-filtered-out", !match);
+        if (match) {
+          sectionMatches++;
+          visibleCount++;
+        }
+      });
+
+      sec.classList.toggle("is-filtered-out", !catMatch || sectionMatches === 0);
+    });
+
+    if (statusEl) {
+      statusEl.textContent = visibleCount > 0
+        ? `عدد الأدلة المعروضة: ${visibleCount.toLocaleString("ar-EG")}`
+        : "لا توجد نتائج مطابقة لهذا البحث؛ جرّب كلمة أقصر أو تصفح كل الأقسام.";
+    }
+  };
+
+  if (searchInput) {
+    searchInput.addEventListener("input", applyFilter);
+  }
+  if (filterBar) {
+    const buttons = Array.from(filterBar.querySelectorAll("[data-cat-filter]"));
+    buttons.forEach((btn) => {
+      btn.addEventListener("click", () => {
+        activeCat = btn.dataset.catFilter || "all";
+        buttons.forEach((b) => {
+          const isCurrent = b === btn;
+          b.classList.toggle("is-active", isCurrent);
+          b.setAttribute("aria-pressed", String(isCurrent));
+        });
+        applyFilter();
+      });
+    });
+  }
+}
+
+function initializeHotelFilter() {
+  const filterBar = document.querySelector("[data-hotel-filters]");
+  if (!filterBar) return;
+
+  const buttons = Array.from(filterBar.querySelectorAll("[data-hotel-filter]"));
+  const targets = Array.from(document.querySelectorAll("[data-hotel-tags]"));
+  const statusEl = document.getElementById("hotel-filter-status");
+
+  buttons.forEach((btn) => {
+    btn.addEventListener("click", () => {
+      const filter = btn.dataset.hotelFilter || "all";
+      buttons.forEach((b) => {
+        const isCurrent = b === btn;
+        b.classList.toggle("is-active", isCurrent);
+        b.setAttribute("aria-pressed", String(isCurrent));
+      });
+
+      let shown = 0;
+      targets.forEach((el) => {
+        const tags = (el.dataset.hotelTags || "").split(/\s+/);
+        const show = filter === "all" || tags.includes(filter);
+        el.classList.toggle("is-filtered-out", !show);
+        if (show) shown++;
+      });
+
+      if (statusEl) {
+        statusEl.textContent = filter === "all"
+          ? "يعرض جميع الفنادق والشقق الفندقية للمقارنة."
+          : `العناصر المعروضة وفق التصنيف المختار: ${shown.toLocaleString("ar-EG")}`;
+      }
+    });
+  });
 }
 
 function initializeSite() {
@@ -193,6 +308,8 @@ function initializeSite() {
   }
 
   initializeTripCalculator();
+  initializeBlogFilter();
+  initializeHotelFilter();
 
   const button = document.querySelector(".menu-toggle");
   const menu = document.getElementById("site-menu");
