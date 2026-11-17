@@ -278,6 +278,11 @@
       "permanent": true
     },
     {
+      "source": "/qasr-hotel-mashhad.html",
+      "destination": "/qasr-hotel-mashhad",
+      "permanent": true
+    },
+    {
       "source": "/qom-pilgrimage-guide.html",
       "destination": "/qom-pilgrimage-guide",
       "permanent": true

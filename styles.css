@@ -1423,3 +1423,252 @@ footer .footer-nav a span {
   gap: 10px;
 }
 
+/* ---------- Qasr Hotel Mashhad Landing Components ---------- */
+.qasr-hero-card {
+  background: var(--white);
+  border: 1px solid var(--border);
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: var(--shadow);
+  margin: 12px 0 24px;
+}
+.qasr-hero-media {
+  position: relative;
+  margin: 0;
+  background: var(--primary-dark);
+}
+.qasr-hero-media img {
+  width: 100%;
+  height: auto;
+  max-height: 460px;
+  object-fit: cover;
+  display: block;
+}
+.qasr-hero-media figcaption {
+  padding: 10px 14px;
+  font-size: 0.82rem;
+  color: var(--muted);
+  background: var(--cream);
+  border-top: 1px solid var(--border);
+}
+.qasr-hero-body {
+  padding: 20px 18px 22px;
+}
+.qasr-badge-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 0 0 12px;
+}
+.qasr-badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 5px 12px;
+  border-radius: 8px;
+  font-size: 0.8rem;
+  font-weight: 700;
+  background: rgba(11, 61, 46, 0.08);
+  color: var(--primary);
+  border: 1px solid rgba(11, 61, 46, 0.16);
+}
+.qasr-badge--gold {
+  background: rgba(201, 162, 39, 0.14);
+  color: #6d4f0c;
+  border-color: rgba(201, 162, 39, 0.42);
+}
+.qasr-cta-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 16px;
+}
+.qasr-wa-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  min-height: 48px;
+  padding: 12px 20px;
+  border-radius: 12px;
+  background: #128C7E;
+  color: #fff !important;
+  font-weight: 700;
+  font-size: 0.96rem;
+  box-shadow: 0 4px 14px rgba(18, 140, 126, 0.22);
+  transition: background 0.18s, transform 0.15s;
+}
+.qasr-wa-btn:hover {
+  background: #0d6e63;
+}
+.qasr-wa-btn:active {
+  transform: scale(0.98);
+}
+.qasr-secondary-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 48px;
+  padding: 12px 18px;
+  border-radius: 12px;
+  border: 1px solid var(--primary);
+  background: var(--white);
+  color: var(--primary) !important;
+  font-weight: 700;
+  font-size: 0.94rem;
+}
+.qasr-highlights {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 10px;
+  margin: 18px 0 26px;
+}
+@media (min-width: 560px) {
+  .qasr-highlights {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+.qasr-highlight-box {
+  background: var(--white);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  padding: 14px 16px;
+}
+.qasr-highlight-box strong {
+  display: block;
+  color: var(--primary);
+  font-family: var(--font-naskh);
+  font-size: 1.02rem;
+  margin-bottom: 4px;
+}
+.qasr-highlight-box p {
+  margin: 0;
+  font-size: 0.9rem;
+  color: var(--muted);
+  line-height: 1.65;
+}
+.qasr-gallery-group {
+  margin: 22px 0 28px;
+}
+.qasr-gallery-group h3 {
+  font-family: var(--font-naskh);
+  font-size: 1.12rem;
+  color: var(--primary);
+  margin: 0 0 12px;
+  padding-bottom: 6px;
+  border-bottom: 1px solid var(--border);
+}
+.qasr-gallery {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 14px;
+}
+@media (min-width: 600px) {
+  .qasr-gallery {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+.qasr-photo-card {
+  margin: 0;
+  background: var(--white);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  overflow: hidden;
+  box-shadow: 0 2px 12px rgba(11, 61, 46, 0.05);
+  display: flex;
+  flex-direction: column;
+}
+.qasr-photo-card img {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+}
+.qasr-gallery--landscape .qasr-photo-card img {
+  aspect-ratio: 3 / 2;
+}
+.qasr-gallery--portrait .qasr-photo-card img {
+  aspect-ratio: 3 / 4;
+}
+.qasr-photo-card figcaption {
+  padding: 10px 14px 12px;
+  font-size: 0.86rem;
+  color: var(--ink);
+  line-height: 1.6;
+  background: var(--white);
+  border-top: 1px solid var(--border);
+  flex: 1;
+}
+.qasr-photo-card figcaption strong {
+  display: block;
+  color: var(--primary);
+  font-size: 0.92rem;
+  margin-bottom: 2px;
+}
+.qasr-split-cards {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 14px;
+  margin: 14px 0 24px;
+}
+@media (min-width: 620px) {
+  .qasr-split-cards {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+.qasr-tier-card {
+  background: var(--white);
+  border: 1px solid var(--border);
+  border-top: 4px solid var(--primary);
+  border-radius: 14px;
+  padding: 18px 16px;
+}
+.qasr-tier-card--royal {
+  border-top-color: var(--gold);
+}
+.qasr-tier-card h3 {
+  margin-top: 0;
+  color: var(--primary);
+}
+.qasr-tier-card ul {
+  margin: 10px 0 0;
+  padding-inline-start: 1.2rem;
+}
+.qasr-discount-box {
+  background: var(--white);
+  border: 1px solid rgba(201, 162, 39, 0.55);
+  border-inline-start: 5px solid var(--gold);
+  border-radius: 14px;
+  padding: 18px 18px;
+  margin: 22px 0;
+}
+.qasr-discount-box h2 {
+  margin-top: 0;
+}
+.qasr-wa-box {
+  background: var(--primary);
+  color: var(--white);
+  border-radius: 18px;
+  padding: 24px 20px;
+  margin: 28px 0;
+  border: 2px solid var(--gold);
+  box-shadow: var(--shadow);
+}
+.qasr-wa-box h2 {
+  color: var(--gold-light);
+  margin: 0 0 10px;
+  font-family: var(--font-naskh);
+}
+.qasr-wa-box p,
+.qasr-wa-box li {
+  color: rgba(255, 255, 255, 0.94);
+}
+.qasr-wa-box .qasr-wa-btn {
+  background: #25D366;
+  color: #06281e !important;
+  font-size: 1rem;
+  width: 100%;
+  max-width: 420px;
+}
+.qasr-wa-box .qasr-wa-btn:hover {
+  background: #20bd5a;
+}

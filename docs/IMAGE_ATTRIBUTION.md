@@ -21,3 +21,5 @@ Both assets were downloaded from Wikimedia Commons thumbnails and converted to W
 - `assets/images/local-food-bazaar.webp` — derived from mashhad-bazaar.webp (الهام خزائی, CC BY-SA 4.0).
 - `assets/images/transport-mashhad-airport.webp` — derived from mashhad-airport.webp (Kasir, CC BY-SA 4.0).
 - `assets/images/money-payments-shrine.webp` — golden dome / shrine visual for budget context, Wikimedia Commons.
+- `assets/images/qasr-hotel-mashhad-*.webp` (13 curated authentic room, suite, lounge, and jacuzzi images + responsive `-420.webp` and `-800.webp` sizes) — provided directly by the site owner (`Ghasr International Hotel`, Imam Reza St between 14 & 16, Mashhad) and converted with EXIF/metadata stripped to genuine WebP (`webp:method=6`).
+

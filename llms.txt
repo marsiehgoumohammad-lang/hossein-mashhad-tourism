@@ -15,7 +15,7 @@ Hussein is an Arabic-speaking local companion in Mashhad, Iran who assists Arab 
 - Services overview: https://hossein-mashhad-tourism.vercel.app/services — Airport transfer, hotel/apartment options, daily transport, medical logistics, and written-confirmation workflow.
 - Sample itineraries: https://hossein-mashhad-tourism.vercel.app/samples — Flexible 3-day, 5-day, and 7-day (Mashhad + Qom / treatment) planning templates.
 - Testimonials & verification policy: https://hossein-mashhad-tourism.vercel.app/testimonials — Strict policy against fabricated star ratings and 5 practical verification criteria for visitors.
-- Full content index: https://hossein-mashhad-tourism.vercel.app/blog — Thematic directory covering all 56 Arabic travel and medical guides.
+- Full content index: https://hossein-mashhad-tourism.vercel.app/blog — Thematic directory covering all 57 Arabic travel and medical guides.
 
 ## Pilgrimage & Mashhad Pillar cluster
 - Mashhad Holy City (Main Pillar): https://hossein-mashhad-tourism.vercel.app/mashhad-holy-city — Comprehensive Arabic hub linking ziyarah, stay, transport, family logistics, and health tourism.
@@ -29,6 +29,7 @@ Hussein is an Arabic-speaking local companion in Mashhad, Iran who assists Arab 
 
 ## Stay, family & city discovery cluster
 - Hotels near the shrine (4-street comparison): https://hossein-mashhad-tourism.vercel.app/hotels-near-shrine-comparison — Street-by-street access comparison (Imam Reza St, Shirazi, Tabarsi, Navab Safavi), verified walking notes, and USD category ranges.
+- Qasr International Hotel Mashhad (Royal Rooms, Honeymoon Suites & Budget Alternatives): https://hossein-mashhad-tourism.vercel.app/qasr-hotel-mashhad — Authentic room/suite photo guide for Ghasr International Hotel (Imam Reza St between 14 & 16), Royal rooms & honeymoon/jacuzzi suites, dynamic up-to-20% off-peak negotiable discounts, plus mid-range, economy hotels, and furnished private apartments.
 - Serviced apartments guide: https://hossein-mashhad-tourism.vercel.app/mashhad-apartment-rental-guide — Comparing furnished apartments vs hotels for extended family or recovery stays.
 - Family & children travel: https://hossein-mashhad-tourism.vercel.app/mashhad-family-travel — Room sizing, pacing, child needs, and multi-generational comfort.
 - Elderly & limited mobility access: https://hossein-mashhad-tourism.vercel.app/mashhad-accessibility-elderly — Elevator verification, wheelchair gates, drop-off points, and flat shrine access.

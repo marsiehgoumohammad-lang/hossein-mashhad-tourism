@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url><loc>https://hossein-mashhad-tourism.vercel.app/about-hussein</loc><lastmod>2026-11-15</lastmod></url>
   <url><loc>https://hossein-mashhad-tourism.vercel.app/arabic-driver-guide-mashhad</loc><lastmod>2026-11-16</lastmod></url>
   <url><loc>https://hossein-mashhad-tourism.vercel.app/best-time-to-visit-mashhad</loc><lastmod>2026-11-15</lastmod></url>
@@ -15,7 +15,7 @@
   <url><loc>https://hossein-mashhad-tourism.vercel.app/health-tourism</loc><lastmod>2026-11-16</lastmod></url>
   <url><loc>https://hossein-mashhad-tourism.vercel.app/hospitals-mashhad</loc><lastmod>2026-11-15</lastmod></url>
   <url><loc>https://hossein-mashhad-tourism.vercel.app/hotels-near-shrine-comparison</loc><lastmod>2026-11-16</lastmod></url>
-  <url><loc>https://hossein-mashhad-tourism.vercel.app/</loc><lastmod>2026-11-15</lastmod></url>
+  <url><loc>https://hossein-mashhad-tourism.vercel.app/</loc><lastmod>2026-11-16</lastmod></url>
   <url><loc>https://hossein-mashhad-tourism.vercel.app/infertility-treatment-mashhad</loc><lastmod>2026-11-15</lastmod></url>
   <url><loc>https://hossein-mashhad-tourism.vercel.app/iran-souvenirs-customs-guide</loc><lastmod>2026-11-15</lastmod></url>
   <url><loc>https://hossein-mashhad-tourism.vercel.app/iran-travel-insurance-guide</loc><lastmod>2026-11-15</lastmod></url>
@@ -25,11 +25,11 @@
   <url><loc>https://hossein-mashhad-tourism.vercel.app/mashhad-3-day-itinerary</loc><lastmod>2026-11-15</lastmod></url>
   <url><loc>https://hossein-mashhad-tourism.vercel.app/mashhad-accessibility-elderly</loc><lastmod>2026-11-15</lastmod></url>
   <url><loc>https://hossein-mashhad-tourism.vercel.app/mashhad-airport-to-shrine</loc><lastmod>2026-11-15</lastmod></url>
-  <url><loc>https://hossein-mashhad-tourism.vercel.app/mashhad-apartment-rental-guide</loc><lastmod>2026-11-15</lastmod></url>
+  <url><loc>https://hossein-mashhad-tourism.vercel.app/mashhad-apartment-rental-guide</loc><lastmod>2026-11-16</lastmod></url>
   <url><loc>https://hossein-mashhad-tourism.vercel.app/mashhad-family-travel</loc><lastmod>2026-11-16</lastmod></url>
   <url><loc>https://hossein-mashhad-tourism.vercel.app/mashhad-from-gulf</loc><lastmod>2026-11-16</lastmod></url>
   <url><loc>https://hossein-mashhad-tourism.vercel.app/mashhad-from-iraq</loc><lastmod>2026-11-16</lastmod></url>
-  <url><loc>https://hossein-mashhad-tourism.vercel.app/mashhad-from-lebanon</loc><lastmod>2026-11-15</lastmod></url>
+  <url><loc>https://hossein-mashhad-tourism.vercel.app/mashhad-from-lebanon</loc><lastmod>2026-11-16</lastmod></url>
   <url><loc>https://hossein-mashhad-tourism.vercel.app/mashhad-holy-city</loc><lastmod>2026-11-16</lastmod></url>
   <url><loc>https://hossein-mashhad-tourism.vercel.app/mashhad-in-winter</loc><lastmod>2026-11-15</lastmod></url>
   <url><loc>https://hossein-mashhad-tourism.vercel.app/mashhad-local-food-guide</loc><lastmod>2026-11-16</lastmod></url>
@@ -46,6 +46,23 @@
   <url><loc>https://hossein-mashhad-tourism.vercel.app/orthopedic-surgery-mashhad</loc><lastmod>2026-11-15</lastmod></url>
   <url><loc>https://hossein-mashhad-tourism.vercel.app/persian-phrases-for-arab-travelers</loc><lastmod>2026-11-15</lastmod></url>
   <url><loc>https://hossein-mashhad-tourism.vercel.app/plastic-surgery-mashhad</loc><lastmod>2026-11-16</lastmod></url>
+  <url>
+    <loc>https://hossein-mashhad-tourism.vercel.app/qasr-hotel-mashhad</loc>
+    <lastmod>2026-11-16</lastmod>
+    <image:image><image:loc>https://hossein-mashhad-tourism.vercel.app/assets/images/qasr-hotel-mashhad-royal-canopy-suite.webp</image:loc><image:title>جناح رويال ملكي للعرسان في فندق قصر الدولي بمشهد</image:title></image:image>
+    <image:image><image:loc>https://hossein-mashhad-tourism.vercel.app/assets/images/qasr-hotel-mashhad-emerald-royal-suite.webp</image:loc><image:title>جناح رويال الفاخر باللون الأخضر المخملي في فندق قصر مشهد</image:title></image:image>
+    <image:image><image:loc>https://hossein-mashhad-tourism.vercel.app/assets/images/qasr-hotel-mashhad-royal-suite-salon.webp</image:loc><image:title>صالة الجلوس والاستقبال في الجناح الملكي بفندق قصر مشهد</image:title></image:image>
+    <image:image><image:loc>https://hossein-mashhad-tourism.vercel.app/assets/images/qasr-hotel-mashhad-vip-business-lounge.webp</image:loc><image:title>صالة أجنحة كبار الشخصيات ورجال الأعمال في فندق قصر مشهد</image:title></image:image>
+    <image:image><image:loc>https://hossein-mashhad-tourism.vercel.app/assets/images/qasr-hotel-mashhad-family-triple-room.webp</image:loc><image:title>غرفة رويال عائلية ثلاثية في فندق قصر مشهد</image:title></image:image>
+    <image:image><image:loc>https://hossein-mashhad-tourism.vercel.app/assets/images/qasr-hotel-mashhad-honeymoon-round-bed.webp</image:loc><image:title>جناح العرسان بالسرير الدائري في فندق قصر مشهد</image:title></image:image>
+    <image:image><image:loc>https://hossein-mashhad-tourism.vercel.app/assets/images/qasr-hotel-mashhad-honeymoon-suite-lounge.webp</image:loc><image:title>ركن ضيافة شهر العسل في جناح فندق قصر مشهد</image:title></image:image>
+    <image:image><image:loc>https://hossein-mashhad-tourism.vercel.app/assets/images/qasr-hotel-mashhad-purple-royal-suite.webp</image:loc><image:title>غرفة رويال أرجوانية وذهبية في فندق قصر مشهد</image:title></image:image>
+    <image:image><image:loc>https://hossein-mashhad-tourism.vercel.app/assets/images/qasr-hotel-mashhad-teal-canopy-bedroom.webp</image:loc><image:title>غرفة نوم الجناح الفيروزي في فندق قصر مشهد</image:title></image:image>
+    <image:image><image:loc>https://hossein-mashhad-tourism.vercel.app/assets/images/qasr-hotel-mashhad-jacuzzi-suite-bathroom.webp</image:loc><image:title>جاكوزي دائري خاص داخل جناح ملكي في فندق قصر مشهد</image:title></image:image>
+    <image:image><image:loc>https://hossein-mashhad-tourism.vercel.app/assets/images/qasr-hotel-mashhad-private-jacuzzi-spa.webp</image:loc><image:title>حوض جاكوزي واسع بإضاءة طبيعية في فندق قصر مشهد</image:title></image:image>
+    <image:image><image:loc>https://hossein-mashhad-tourism.vercel.app/assets/images/qasr-hotel-mashhad-classic-double-room.webp</image:loc><image:title>غرفة مزدوجة كلاسيكية في فندق قصر مشهد</image:title></image:image>
+    <image:image><image:loc>https://hossein-mashhad-tourism.vercel.app/assets/images/qasr-hotel-mashhad-suite-hospitality-quran.webp</image:loc><image:title>تجهيزات الضيافة والقرآن الكريم في غرفة فندق قصر الدولي</image:title></image:image>
+  </url>
   <url><loc>https://hossein-mashhad-tourism.vercel.app/qom-pilgrimage-guide</loc><lastmod>2026-11-15</lastmod></url>
   <url><loc>https://hossein-mashhad-tourism.vercel.app/religious-season-crowds-mashhad</loc><lastmod>2026-11-15</lastmod></url>
   <url><loc>https://hossein-mashhad-tourism.vercel.app/religious-visit-during-treatment</loc><lastmod>2026-11-15</lastmod></url>
