@@ -108,6 +108,11 @@
       "permanent": true
     },
     {
+      "source": "/honeymoon-couples-mashhad.html",
+      "destination": "/honeymoon-couples-mashhad",
+      "permanent": true
+    },
+    {
       "source": "/hotels-near-shrine-comparison.html",
       "destination": "/hotels-near-shrine-comparison",
       "permanent": true
@@ -115,6 +120,11 @@
     {
       "source": "/imam-reza-shrine-gates-guide.html",
       "destination": "/imam-reza-shrine-gates-guide",
+      "permanent": true
+    },
+    {
+      "source": "/imam-reza-shrine-tour-courtyards.html",
+      "destination": "/imam-reza-shrine-tour-courtyards",
       "permanent": true
     },
     {
@@ -405,6 +415,16 @@
     {
       "source": "/sim-card-and-internet-in-iran.html",
       "destination": "/sim-card-and-internet-in-iran",
+      "permanent": true
+    },
+    {
+      "source": "/solo-youth-travel-mashhad.html",
+      "destination": "/solo-youth-travel-mashhad",
+      "permanent": true
+    },
+    {
+      "source": "/temporary-marriage-iran-legal-guide.html",
+      "destination": "/temporary-marriage-iran-legal-guide",
       "permanent": true
     },
     {
