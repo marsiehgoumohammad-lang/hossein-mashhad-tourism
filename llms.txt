@@ -1,6 +1,6 @@
 # Hossein Mashhad Tourism — llms.txt
 # https://hossein-mashhad-tourism.vercel.app/
-# Last updated: 2026-11-17
+# Last updated: 2026-11-18
 
 > Arabic-language personal companion and travel-coordination platform for religious pilgrims and medical travelers visiting Mashhad (Imam Reza Shrine), Iran.
 > Target markets: Iraq, Kuwait, Bahrain, Oman, Qatar, UAE, Saudi Arabia, Lebanon, and Arabic-speaking travelers worldwide.
@@ -15,12 +15,13 @@ Hussein is an Arabic-speaking local companion in Mashhad, Iran who assists Arab 
 - Services overview: https://hossein-mashhad-tourism.vercel.app/services — Airport transfer, hotel/apartment options, daily transport, medical logistics, and written-confirmation workflow.
 - Sample itineraries: https://hossein-mashhad-tourism.vercel.app/samples — Flexible 3-day, 5-day, and 7-day (Mashhad + Qom / treatment) planning templates.
 - Testimonials & verification policy: https://hossein-mashhad-tourism.vercel.app/testimonials — Strict policy against fabricated star ratings and practical field-proof verification criteria for visitors.
-- Full content index: https://hossein-mashhad-tourism.vercel.app/blog — Interactive searchable thematic directory covering all 75 Arabic travel, hotel, tourism, saffron/zereshk trade, hospital, and medical guides.
+- Full content index: https://hossein-mashhad-tourism.vercel.app/blog — Interactive searchable thematic directory covering all 79 Arabic travel, hotel, tourism, saffron/zereshk trade, hospital, and medical guides.
 
 ## Pilgrimage & Mashhad Pillar cluster
 - Mashhad Holy City (Main Pillar): https://hossein-mashhad-tourism.vercel.app/mashhad-holy-city — Comprehensive Arabic hub linking ziyarah, stay, transport, family logistics, and health tourism.
 - Imam Reza Shrine visit guide: https://hossein-mashhad-tourism.vercel.app/guide-ziyarah-imam-reza — Practical shrine preparation, timing, courtyards, and family energy pacing.
 - Imam Reza Shrine gates & entrances guide: https://hossein-mashhad-tourism.vercel.app/imam-reza-shrine-gates-guide — Bab al-Reza, Bab al-Jawad, Bast Tabarsi, Bast Sheikh Toosi, luggage/amanat checkrooms, and closest hotel streets.
+- Imam Reza Shrine interior tour (courtyards & halls): https://hossein-mashhad-tourism.vercel.app/imam-reza-shrine-tour-courtyards — Guided walkthrough of Enqelab, Azadi, Jomhouri, Goharshad, Razavi Grand courtyards, Rawzah, Dar al-Hujjah, and quiet prayer areas.
 - Shrine pilgrimage etiquette: https://hossein-mashhad-tourism.vercel.app/mashhad-pilgrimage-etiquette — Respectful dress code, photography rules, belongings/amanat guidelines, and gate procedures.
 - 3-day Mashhad itinerary: https://hossein-mashhad-tourism.vercel.app/mashhad-3-day-itinerary — Hour-by-hour arrival, shrine visits, rest windows, and local movement.
 - Religious season crowds: https://hossein-mashhad-tourism.vercel.app/religious-season-crowds-mashhad — Planning around peak religious occasions, occupancy spikes, and gate congestion.
@@ -38,6 +39,8 @@ Hussein is an Arabic-speaking local companion in Mashhad, Iran who assists Arab 
 - Boshra & Navab Safavi Furnished Apartments: https://hossein-mashhad-tourism.vercel.app/boshra-arman-apartments-mashhad — Multi-bedroom serviced apartments and family complexes on Navab Safavi Axis / Khosravi with full kitchens for families and recovery stays.
 - Serviced apartments guide: https://hossein-mashhad-tourism.vercel.app/mashhad-apartment-rental-guide — Comparing furnished apartments vs hotels for extended family or recovery stays.
 - Family & children travel: https://hossein-mashhad-tourism.vercel.app/mashhad-family-travel — Room sizing, pacing, child needs, and multi-generational comfort.
+- Honeymoon & couples stay in Mashhad: https://hossein-mashhad-tourism.vercel.app/honeymoon-couples-mashhad — Luxury Royal & honeymoon suites (including Qasr Hotel round-bed & jacuzzi options), privacy near the shrine, and off-peak discounts up to 20%.
+- Solo & youth travel to Mashhad: https://hossein-mashhad-tourism.vercel.app/solo-youth-travel-mashhad — Independent solo/youth stays, metro/Snapp economy routing, mountain parks, waterparks, and clear budgeting.
 - Elderly & limited mobility access: https://hossein-mashhad-tourism.vercel.app/mashhad-accessibility-elderly — Elevator verification, wheelchair gates, drop-off points, and flat shrine access.
 - Things to do in Mashhad: https://hossein-mashhad-tourism.vercel.app/things-to-do-in-mashhad — City parks, cultural quarters, markets, and balancing leisure with shrine visits.
 - Shopping malls, indoor waterparks & villas: https://hossein-mashhad-tourism.vercel.app/mashhad-shopping-malls-waterparks — Overview of Almas Shargh, Proma, Armitaj malls, waterparks, and Shandiz/Torghabeh villas.
@@ -59,10 +62,11 @@ Hussein is an Arabic-speaking local companion in Mashhad, Iran who assists Arab 
 - From Gulf countries: https://hossein-mashhad-tourism.vercel.app/mashhad-from-gulf — Kuwait, Bahrain, Qatar, UAE, Oman, and Saudi flight options, transit checks, and family stays.
 - From Lebanon: https://hossein-mashhad-tourism.vercel.app/mashhad-from-lebanon — Beirut seasonal and connecting flights, baggage allowance, and advance prep.
 - Iran visa requirements for Arabs: https://hossein-mashhad-tourism.vercel.app/iran-visa-requirements-arab-travelers — Official MFA e-visa checking rules by nationality without unverified exemptions.
+- Temporary marriage legal guide in Iran (strictly informational): https://hossein-mashhad-tourism.vercel.app/temporary-marriage-iran-legal-guide — Official Iranian Civil Code rules, passport/notary requirements, and hotel family checks (strictly legal/informational; Hussein never brokers or arranges marriages).
 - Trip cost breakdown (USD): https://hossein-mashhad-tourism.vercel.app/mashhad-trip-cost — Transparent budget categories (stay, airport transfer, food, transport, contingency).
-- Airport to shrine transfer: https://hossein-mashhad-tourism.vercel.app/mashhad-airport-to-shrine — Metro, official airport taxi, app-hailing, and pre-arranged pickup comparison.
+- Airport to shrine transfer: https://hossein-mashhad-tourism.vercel.app/mashhad-airport-to-shrine — Pre-arranged airport pickup (استقبال من مطار مشهد), airport-to-shrine transfer (نقل من مطار مشهد إلى الحرم), official airport taxi, metro line 1, and written pricing confirmation.
 - Transport around Mashhad: https://hossein-mashhad-tourism.vercel.app/transport-around-mashhad — Mashhad metro lines, Snapp/Tap30 considerations, private driver options, and intercity links.
-- Arabic-speaking driver, translator & guide: https://hossein-mashhad-tourism.vercel.app/arabic-driver-guide-mashhad — Private bilingual Arabic-Persian driver, city/Shandiz tour companion, and hospital translation coordination.
+- Arabic-speaking driver, translator & guide: https://hossein-mashhad-tourism.vercel.app/arabic-driver-guide-mashhad — Private bilingual Arabic-Persian driver, private car rental (سيارة خاصة في مشهد), trusted Arabic translator & medical interpreter (مترجم عربي موثوق ومترجم طبي), Arabic tour guide, and tailored services for Iraqi and Gulf visitors.
 - Flight delays & schedule changes: https://hossein-mashhad-tourism.vercel.app/flight-delay-and-travel-changes — Step-by-step handling for flight disruptions, hotel check-in holds, and clinic rescheduling.
 - Travel & medical insurance guide: https://hossein-mashhad-tourism.vercel.app/iran-travel-insurance-guide — Policy verification, emergency coverage exclusions, and medical trip coverage questions.
 - Money & payments in Iran: https://hossein-mashhad-tourism.vercel.app/money-and-payments-in-iran — Rial vs Toman arithmetic, foreign currency exchange safety, and tourist card rules.
