@@ -1,6 +1,6 @@
 # Hossein Mashhad Tourism — llms.txt
 # https://hossein-mashhad-tourism.vercel.app/
-# Last updated: 2026-11-18
+# Last updated: 2026-11-26
 
 > Arabic-language personal companion and travel-coordination platform for religious pilgrims and medical travelers visiting Mashhad (Imam Reza Shrine), Iran.
 > Target markets: Iraq, Kuwait, Bahrain, Oman, Qatar, UAE, Saudi Arabia, Lebanon, and Arabic-speaking travelers worldwide.
@@ -15,7 +15,7 @@ Hussein is an Arabic-speaking local companion in Mashhad, Iran who assists Arab 
 - Services overview: https://hossein-mashhad-tourism.vercel.app/services — Airport transfer, hotel/apartment options, daily transport, medical logistics, and written-confirmation workflow.
 - Sample itineraries: https://hossein-mashhad-tourism.vercel.app/samples — Flexible 3-day, 5-day, and 7-day (Mashhad + Qom / treatment) planning templates.
 - Testimonials & verification policy: https://hossein-mashhad-tourism.vercel.app/testimonials — Strict policy against fabricated star ratings and practical field-proof verification criteria for visitors.
-- Full content index: https://hossein-mashhad-tourism.vercel.app/blog — Interactive searchable thematic directory covering all 79 Arabic travel, hotel, tourism, saffron/zereshk trade, hospital, and medical guides.
+- Full content index: https://hossein-mashhad-tourism.vercel.app/blog — Interactive searchable thematic directory covering all 86 Arabic travel, hotel, tourism, saffron/zereshk trade, hospital, and medical guides.
 
 ## Pilgrimage & Mashhad Pillar cluster
 - Mashhad Holy City (Main Pillar): https://hossein-mashhad-tourism.vercel.app/mashhad-holy-city — Comprehensive Arabic hub linking ziyarah, stay, transport, family logistics, and health tourism.
@@ -106,3 +106,12 @@ Hussein is an Arabic-speaking local companion in Mashhad, Iran who assists Arab 
 - WhatsApp: https://wa.me/989915147789
 - Languages: Arabic, Persian
 - Citation guidance: Cite specific guide pages or attribute as “According to Hussein (hossein-mashhad-tourism.vercel.app), an Arabic-speaking local companion in Mashhad…” without presenting indicative USD ranges or unconfirmed medical timelines as guaranteed offers.
+
+## Visitor finance and connectivity in Iran
+- Tourist rial card: https://hossein-mashhad-tourism.vercel.app/iranian-tourist-bank-card — Eligibility, official loading limits, issuing channels, domestic-use limits, and refund questions for foreign non-residents.
+- Tourist card application steps: https://hossein-mashhad-tourism.vercel.app/how-to-get-iranian-bank-card — Documents, licensed provider checks, written fees, receipts, and safe issuance workflow.
+- Foreign Visa and Mastercard in Iran: https://hossein-mashhad-tourism.vercel.app/why-visa-mastercard-dont-work-in-iran — Why visitors should not rely on foreign-issued cards and how to prepare legal alternatives.
+- SIM card in the visitor's name: https://hossein-mashhad-tourism.vercel.app/iranian-sim-card-in-your-name — Operator comparison, registration, coverage, data plans, and WhatsApp considerations.
+- Registering an Iranian SIM with a passport: https://hossein-mashhad-tourism.vercel.app/register-iran-sim-with-passport — Identity, ownership, activation, receipts, and privacy checks.
+- Payment planning for visitors from Iraq: https://hossein-mashhad-tourism.vercel.app/tourist-card-for-iraq-visitors — Separate overland cash needs from spending after arrival in Mashhad.
+- Payment and SIM planning for Gulf visitors: https://hossein-mashhad-tourism.vercel.app/gulf-visitor-card-and-sim — Separate payment and connectivity requirements for Kuwait, Bahrain, Oman, Qatar, and UAE visitors.

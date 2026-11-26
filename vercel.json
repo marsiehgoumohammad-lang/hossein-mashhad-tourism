@@ -496,6 +496,41 @@
       "source": "/restaurants-near-imam-reza-shrine",
       "destination": "/mashhad-local-food-guide",
       "permanent": true
+    },
+    {
+      "source": "/iranian-tourist-bank-card.html",
+      "destination": "/iranian-tourist-bank-card",
+      "permanent": true
+    },
+    {
+      "source": "/how-to-get-iranian-bank-card.html",
+      "destination": "/how-to-get-iranian-bank-card",
+      "permanent": true
+    },
+    {
+      "source": "/why-visa-mastercard-dont-work-in-iran.html",
+      "destination": "/why-visa-mastercard-dont-work-in-iran",
+      "permanent": true
+    },
+    {
+      "source": "/iranian-sim-card-in-your-name.html",
+      "destination": "/iranian-sim-card-in-your-name",
+      "permanent": true
+    },
+    {
+      "source": "/register-iran-sim-with-passport.html",
+      "destination": "/register-iran-sim-with-passport",
+      "permanent": true
+    },
+    {
+      "source": "/tourist-card-for-iraq-visitors.html",
+      "destination": "/tourist-card-for-iraq-visitors",
+      "permanent": true
+    },
+    {
+      "source": "/gulf-visitor-card-and-sim.html",
+      "destination": "/gulf-visitor-card-and-sim",
+      "permanent": true
     }
   ],
   "headers": [
