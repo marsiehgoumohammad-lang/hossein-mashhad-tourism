@@ -193,3 +193,12 @@
 - Se añadió advertencia sobre antigüedades y bienes del patrimonio cultural, así como sobre alimentos, medicamentos y productos sujetos a permisos o restricciones.
 - Se conservaron imágenes y CTA, y se actualizaron title, description, Open Graph, Twitter, JSON-LD y lastmod de las tres URLs.
 - Validación estática y de enlaces completada: un H1 y un main por página; JSON-LD válido; metadatos sociales sincronizados; enlaces internos comprobados; no se detectaron enlaces rotos ni placeholders.
+
+## استكمال الصفحات الطبية التي ظهرت في جرد الموقع الكامل — 2026-11-28
+
+- كشف جرد جميع صفحات HTML عن أربع صفحات طبية إضافية لم تكن ضمن دفعة التخصصات الأولى: طب الأسنان، أمراض الجهاز الهضمي والكبد، زراعة الشعر، وتجميل الأنف.
+- أُعيدت صياغة الصفحات لتجنب المدد العلاجية الثابتة والأسعار ونسب النجاح والوعود التجميلية، مع إحالة القرار إلى الطبيب والمنشأة المرخصة.
+- أضيف رابط سجل أعضاء منظمة النظام الطبي الإيرانية للتحقق من مؤهلات الأطباء، ورابط قائمة IPD الرسمية عند الحاجة.
+- أُزيلت التعليمات الدوائية أو التحضيرية التي قد تُفهم كبديل عن تعليمات الطبيب؛ وأُكد عدم إيقاف الأدوية دون توجيه طبي، وضرورة طلب الرعاية الطارئة عند الأعراض الخطرة.
+- تم تحديث metadata وJSON-LD وlastmod للصفحات الأربع.
+- Validación estática y de enlaces completada: un H1 y un main por página; JSON-LD válido; metadatos sociales sincronizados; enlaces internos comprobados; no se detectaron enlaces rotos ni placeholders.
