@@ -268,3 +268,12 @@
 - Se aclaró que la inspección visual no acredita propiedad, estado legal, calidad de laboratorio ni seguridad mecánica; esos extremos requieren profesionales y entidades competentes.
 - Se actualizaron title, description, Open Graph, Twitter, H1, FAQPage JSON-LD y lastmod.
 - Validación estructural, de metadatos, JSON-LD y enlaces internos completada.
+
+## Humanización del clúster de productos de Khorasan — 2026-11-28
+
+- Se revisaron dos páginas: azafrán de Qainat y zereshk/barberry de Qainat.
+- En azafrán se eliminaron pruebas caseras presentadas como concluyentes, superlativos de calidad y afirmaciones de autenticidad sin trazabilidad. La guía ahora pide origen/lote/año de cosecha, grado comercial, peso neto, muestra y, para pedidos relevantes, informe de laboratorio. Se enlazaron las versiones actuales de ISO 3632-1:2025 y el método ISO 3632-2:2010.
+- En barberry se retiraron plazos universales de secado, cantidades fijas de equipaje, pruebas caseras de aceite/agua y afirmaciones terapéuticas. Se aclaró que los nombres Pofaki y Dane Anari son descripciones comerciales que deben verificarse con muestra y datos de lote.
+- Se conservaron los usos culinarios, las diferencias habituales entre tipos y consejos prudentes de almacenamiento; se eliminaron promesas de autenticidad, disponibilidad o suministro garantizado.
+- Se actualizaron title, description, Open Graph, Twitter, H1, FAQPage JSON-LD y lastmod.
+- Validación estructural, de metadatos, JSON-LD y enlaces internos completada.
