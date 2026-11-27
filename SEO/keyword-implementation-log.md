@@ -174,3 +174,12 @@
 - Se añadió una advertencia fechada: el sitio oficial de Park Abi Iranian indicaba el 28 de noviembre de 2026 que el turno masculino no estaba activo y que las entradas no eran reembolsables; se instruye comprobar el estado antes de comprar.
 - Se conservaron las imágenes y CTA, se actualizaron metadatos y JSON-LD y lastmod de las cuatro URLs.
 - Validación estática y de enlaces completada: un H1 y un main por página; JSON-LD válido; metadatos sociales sincronizados; enlaces internos comprobados; no se detectaron enlaces rotos ni placeholders.
+
+## Humanización del clúster de gastronomía y restaurantes — 2026-11-28
+
+- Se revisaron dos páginas: guía de comida local de Mashhad y guía de restaurantes de shishlik en Mashhad/Shandiz.
+- Se eliminaron direcciones, teléfonos, horarios y tiempos de caminata desactualizados, además de afirmaciones de «mejor» o «más antiguo» sin respaldo suficiente.
+- Se conservó información útil sobre platos locales, ingredientes, alergias, tamaños de porción, unidades de precio y preguntas que el visitante puede hacer antes de ordenar.
+- En la guía de shishlik se conservaron como referencias de búsqueda Eram, Padideh, Shayan y Haj Hassan en Shandiz; se retiraron nombres con estado operativo incierto y no se publicaron ratings, teléfonos ni horarios.
+- Se actualizaron title, description, Open Graph, Twitter, JSON-LD y lastmod de las dos URLs.
+- Validación estática y de enlaces completada: un H1 y un main por página; JSON-LD válido; metadatos sociales sincronizados; enlaces internos comprobados; no se detectaron enlaces rotos ni placeholders.
