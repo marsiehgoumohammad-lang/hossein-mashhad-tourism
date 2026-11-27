@@ -249,3 +249,13 @@
 - Se redujeron enlaces genéricos repetidos y se diferenciaron las páginas de información general, pasos de solicitud y orientación específica para visitantes iraquíes y del Golfo.
 - Se actualizaron title, description, Open Graph, Twitter, H1, FAQPage JSON-LD y lastmod.
 - Validación estructural, de metadatos, JSON-LD y enlaces internos completada.
+
+## Humanización del clúster de conectividad y frases persas — 2026-11-28
+
+- Se revisaron cuatro páginas: elección de SIM iraní a nombre del visitante, registro con pasaporte, SIM e internet en Irán y frases persas para viajeros árabes.
+- Se aclaró que los documentos, la dirección local, la activación, los paquetes y la disponibilidad dependen del operador, el tipo de línea y las reglas vigentes; se recomienda confirmar en un punto oficial antes de pagar.
+- Se retiraron promesas generales sobre cobertura o activación y se reforzó la preparación de mapas, direcciones y datos de reserva sin conexión.
+- Se eliminaron bloques repetidos de enlaces genéricos y se diferenciaron las páginas de elección, registro y conectividad general.
+- Se corrigieron secuencias Unicode literales en el texto persa y se añadieron pronunciaciones latinas a diez frases prácticas para transporte, hotel, comida y emergencias.
+- Se actualizaron title, description, Open Graph, Twitter, H1, JSON-LD y lastmod.
+- Validación estructural, de metadatos, JSON-LD y enlaces internos completada.
