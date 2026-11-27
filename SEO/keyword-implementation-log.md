@@ -183,3 +183,13 @@
 - En la guía de shishlik se conservaron como referencias de búsqueda Eram, Padideh, Shayan y Haj Hassan en Shandiz; se retiraron nombres con estado operativo incierto y no se publicaron ratings, teléfonos ni horarios.
 - Se actualizaron title, description, Open Graph, Twitter, JSON-LD y lastmod de las dos URLs.
 - Validación estática y de enlaces completada: un H1 y un main por página; JSON-LD válido; metadatos sociales sincronizados; enlaces internos comprobados; no se detectaron enlaces rotos ni placeholders.
+
+## Humanización del clúster de mercados, centros comerciales y aduanas — 2026-11-28
+
+- Se revisaron tres páginas: mercados tradicionales, centros comerciales modernos y regalos/souvenirs con reglas aduaneras.
+- Se eliminaron direcciones de tiendas individuales, teléfonos, horarios fijos y afirmaciones de liderazgo comercial que no estaban verificadas.
+- Se distinguieron las funciones de Bazaar Reza, mercados de ropa y centros comerciales modernos; se añadieron enlaces internos entre mercados, malls, parques acuáticos y souvenirs.
+- Se reescribió la guía aduanera sin límites numéricos antiguos o contradictorios para saffron, nueces, alfombras, divisas o metales. Se remite al portal oficial de la Aduana iraní y a la autoridad aduanera del país de destino.
+- Se añadió advertencia sobre antigüedades y bienes del patrimonio cultural, así como sobre alimentos, medicamentos y productos sujetos a permisos o restricciones.
+- Se conservaron imágenes y CTA, y se actualizaron title, description, Open Graph, Twitter, JSON-LD y lastmod de las tres URLs.
+- Validación estática y de enlaces completada: un H1 y un main por página; JSON-LD válido; metadatos sociales sincronizados; enlaces internos comprobados; no se detectaron enlaces rotos ni placeholders.
