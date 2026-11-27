@@ -230,3 +230,12 @@
 - Se preservaron las imágenes, créditos, tarjetas internas y tablas; se actualizaron los textos y los metadatos.
 - Se actualizaron title, description, Open Graph, Twitter, H1, JSON-LD y lastmod de las cinco URLs.
 - Validación estructural, de metadatos, JSON-LD y enlaces internos completada.
+
+## Humanización del clúster de perfiles de viajeros y accesibilidad — 2026-11-28
+
+- Se revisaron tres páginas: viaje de luna de miel, viaje individual/jóvenes y visita para personas mayores o con movilidad reducida.
+- En la guía de luna de miel se retiraron afirmaciones no verificadas sobre camas redondas, jacuzzis, piscinas y «mejores» suites; la comparación ahora exige confirmar la categoría de habitación y los servicios directamente con el hotel.
+- En la guía de viaje individual se eliminaron presupuestos antiguos, porcentajes de ahorro por habitación compartida y números de líneas de metro que podían estar desactualizados. Se reforzó la necesidad de confirmar la política de registro del hotel y las rutas vigentes.
+- En la guía de accesibilidad se priorizaron las necesidades reales del viajero y la verificación de entradas, ascensores, baños, puntos de descenso y pausas, sin prometer instalaciones no comprobadas.
+- Se actualizaron FAQPage JSON-LD, title, description, Open Graph, Twitter, H1 y lastmod.
+- Validación estructural, de metadatos, JSON-LD y enlaces internos completada.
