@@ -126,3 +126,13 @@
 - Se añadió referencia a los canales oficiales del santuario para instrucciones y avisos variables.
 - Se conservaron imágenes, enlaces internos relevantes, CTA de WhatsApp y JSON-LD; se sincronizaron metadatos y lastmod de las cuatro URLs.
 - Validación estática y de enlaces completada: un H1 y un main por página; JSON-LD válido; metadatos sociales sincronizados; enlaces internos comprobados; no se detectaron enlaces rotos ni placeholders.
+
+## Humanización del clúster de turismo médico y hospitales — 2026-11-28
+
+- Se revisaron ocho páginas: guía general de turismo médico, guía de hospitales, Hospital Razavi, Hospital Javad Al-Aimma, Hospital Oftalmológico Khatam al-Anbia, documentos médicos, consulta remota y visita religiosa durante el tratamiento.
+- Se retiraron afirmaciones no verificadas sobre licencias IPD, especialidades, unidades de cuidados intensivos, disponibilidad de traductores, horarios, tiempos de recuperación y resultados.
+- Se enlazó la lista oficial del Ministerio de Salud para verificar el estado IPD; no se presenta a un centro como autorizado sin confirmación vigente.
+- Los datos de dirección, teléfono, correo y servicios internacionales del Hospital Razavi se contrastaron con su sitio oficial. Se dejaron como sujetos a confirmación los servicios y citas de cada fecha.
+- Se reforzaron los límites: coordinación logística no es diagnóstico ni recomendación médica; la idoneidad del tratamiento y del viaje la determina el equipo médico.
+- Se conservaron imágenes, enlaces internos relevantes y CTA de WhatsApp; se sincronizaron metadatos, JSON-LD y lastmod de las ocho URLs.
+- Validación estática y de enlaces completada: un H1 y un main por página; JSON-LD válido; metadatos sociales sincronizados; enlaces internos comprobados; no se detectaron enlaces rotos ni placeholders.
