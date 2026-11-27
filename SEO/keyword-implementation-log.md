@@ -116,3 +116,13 @@
 - Se retiraron afirmaciones no verificadas sobre equipos, ausencia de comisiones y servicios garantizados. Se mantuvieron las rutas internas, imágenes y contacto de WhatsApp.
 - Se actualizaron metadatos y JSON-LD y lastmod de las tres URLs.
 - Validación estática completada: estructura HTML, un H1, JSON-LD válido, metadatos sociales sincronizados y enlaces internos comprobados.
+
+## Humanización del clúster de visita al santuario Imam Reza — 2026-11-28
+
+- Se revisaron cuatro páginas: guía general de visita, puertas y accesos, patios y pórticos interiores, y etiqueta de peregrinación.
+- Se redujeron las repeticiones de palabras clave y encabezados mecánicos; el contenido ahora acompaña al visitante antes, durante y después de la visita.
+- Se eliminaron asociaciones no verificadas entre hoteles y puertas específicas, afirmaciones absolutas sobre acceso, y promesas de disponibilidad gratuita de sillas de ruedas, consignas o vehículos eléctricos.
+- Se mantuvieron nombres conocidos de puertas, patios y pórticos sin atribuirles direcciones o servicios que no pudimos confirmar; se indica consultar señalización y personal del santuario en la fecha de visita.
+- Se añadió referencia a los canales oficiales del santuario para instrucciones y avisos variables.
+- Se conservaron imágenes, enlaces internos relevantes, CTA de WhatsApp y JSON-LD; se sincronizaron metadatos y lastmod de las cuatro URLs.
+- Validación estática y de enlaces completada: un H1 y un main por página; JSON-LD válido; metadatos sociales sincronizados; enlaces internos comprobados; no se detectaron enlaces rotos ni placeholders.
