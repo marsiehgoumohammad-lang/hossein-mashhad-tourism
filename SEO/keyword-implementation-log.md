@@ -213,3 +213,11 @@
 - Se mantuvieron imágenes, estructura, tarjetas, enlaces, tablas, CTAs y filtros interactivos del blog; el índice continúa mostrando 86 guías de contenido, además de la página de inicio.
 - Se actualizaron title, description, Open Graph, Twitter, JSON-LD y lastmod de las seis URLs.
 - Validación estructural, de metadatos, JSON-LD y enlaces internos completada.
+
+## Humanización del clúster de temporadas y planificación — 2026-11-28
+
+- Se revisaron cinco páginas: mejor época para visitar Mashhad, visita en invierno, lista de equipaje, itinerario de tres días y planificación durante temporadas religiosas.
+- Se redujeron introducciones repetidas y encabezados tipo plantilla; el itinerario de tres días ahora prioriza un ritmo realista y tiempos de descanso, sin prometer horarios o disponibilidad.
+- Se reforzó la advertencia de que el clima, la nieve, la afluencia y los servicios cambian; se recomienda verificar condiciones cercanas a la fecha de viaje y no confiar en cifras o calendarios antiguos.
+- Se actualizaron title, description, Open Graph, Twitter, H1, JSON-LD y lastmod de las cinco URLs.
+- Validación estructural, de metadatos, JSON-LD y enlaces internos completada; no se encontraron enlaces rotos ni horarios o temperaturas fijas no verificadas.
