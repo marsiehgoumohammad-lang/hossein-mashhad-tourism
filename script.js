@@ -88,90 +88,82 @@ function initializeTripCalculator() {
   if (!root || root.dataset.calcReady === "true") return;
   root.dataset.calcReady = "true";
 
-  const nightsEl = root.querySelector("#calc-nights");
-  const travelersEl = root.querySelector("#calc-travelers");
-  const roomsEl = root.querySelector("#calc-rooms");
-  const tierEl = root.querySelector("#calc-tier");
-  const seasonEl = root.querySelector("#calc-season");
-  const originEl = root.querySelector("#calc-origin");
+  const ids = [
+    "calc-nights", "calc-days", "calc-travelers", "calc-rooms",
+    "calc-hotel-price", "calc-hotel-discount", "calc-food-price",
+    "calc-local-transport", "calc-airport-transfer", "calc-flight-price",
+    "calc-extra-costs", "calc-origin"
+  ];
+  const fields = Object.fromEntries(ids.map((id) => [id, root.querySelector(`#${id}`)]));
   const totalEl = root.querySelector("[data-calc-total]");
   const breakdownEl = root.querySelector("[data-calc-breakdown]");
+  const noteEl = root.querySelector("[data-calc-season-note]");
   const originNoteEl = root.querySelector("[data-calc-origin-note]");
-  const seasonNoteEl = root.querySelector("[data-calc-season-note]");
   const waBtn = root.querySelector("[data-calc-wa]");
+  if (ids.some((id) => !fields[id]) || !totalEl || !breakdownEl) return;
 
-  if (!nightsEl || !travelersEl || !roomsEl || !tierEl || !totalEl || !breakdownEl) return;
-
-  const TIERS = {
-    budget: { label: "فندق اقتصادي / ٣ نجوم", min: 26, max: 65 },
-    four: { label: "فندق ٤ نجوم", min: 42, max: 110 },
-    five: { label: "فندق ٥ نجوم", min: 48, max: 125 },
-  };
-
-  const SEASONS = {
-    offpeak: { label: "موسم هادئ (خارج الذروة)", mult: 0.84, note: "في الفترات الهادئة خارج الذروة لا يوجد خصم مضمون، وقد يتاح التفاوض أحياناً على خصم يصل إلى ٢٠٪ وفق موافقة الفندق والإشغال وتاريخ السفر؛ يُتحقق من السعر النهائي كتابياً يوم الاستفسار." },
-    regular: { label: "موسم معتدل", mult: 1.0, note: "الأسعار المعتادة تختلف بحسب الشارع وقرب الغرفة من موعد السفر؛ قد تتوفر عروض جزئية بالحجز المبكر." },
-    peak: { label: "موسم ذروة ومناسبات دينية", mult: 1.18, note: "في مواسم الزيارة الكبرى والعطل يرتفع الإشغال وتنخفض فرص الخصم الكبير؛ يُنصح بالتأكيد المبكر مكتوباً." },
-  };
-
-  const toAr = (n) => Number(Math.round(n)).toLocaleString("ar-EG");
-
+  const toAr = (n) => Number(n).toLocaleString("ar-EG", { maximumFractionDigits: 2 });
+  const val = (id) => Math.max(0, Number(fields[id].value) || 0);
   const update = () => {
-    const nights = Math.max(1, Math.min(30, Number(nightsEl.value) || 4));
-    const travelers = Math.max(1, Math.min(15, Number(travelersEl.value) || 2));
-    const rooms = Math.max(1, Math.min(8, Number(roomsEl.value) || 1));
-    const tier = TIERS[tierEl.value] || TIERS.budget;
-    const seasonKey = seasonEl ? seasonEl.value : "regular";
-    const season = SEASONS[seasonKey] || SEASONS.regular;
-    const origin = originEl ? originEl.value : "iraq";
+    const nights = Math.max(1, Math.min(30, Number(fields["calc-nights"].value) || 1));
+    const days = Math.max(1, Math.min(31, Number(fields["calc-days"].value) || nights + 1));
+    const travelers = Math.max(1, Math.min(15, Number(fields["calc-travelers"].value) || 1));
+    const rooms = Math.max(1, Math.min(8, Number(fields["calc-rooms"].value) || 1));
+    const hotelRate = val("calc-hotel-price");
+    const discount = Math.max(0, Math.min(20, val("calc-hotel-discount")));
+    if (Number(fields["calc-hotel-discount"].value) > 20) fields["calc-hotel-discount"].value = "20";
+    const foodRate = val("calc-food-price");
+    const localRate = val("calc-local-transport");
+    const transfer = val("calc-airport-transfer");
+    const flightRate = val("calc-flight-price");
+    const extra = val("calc-extra-costs");
+    const hasQuote = [hotelRate, foodRate, localRate, transfer, flightRate, extra].some((n) => n > 0);
 
-    const hotelMin = Math.round(nights * rooms * tier.min * season.mult);
-    const hotelMax = Math.round(nights * rooms * tier.max * (seasonKey === "offpeak" ? 0.9 : season.mult));
-    const dailyMin = nights * travelers * 20;
-    const dailyMax = nights * travelers * 52;
-    const taxiMin = travelers >= 4 ? 30 : 20;
-    const taxiMax = travelers >= 4 ? 62 : 44;
+    breakdownEl.replaceChildren();
+    if (!hasQuote) {
+      totalEl.textContent = "أدخل الأسعار الحالية التي حصلت عليها ليظهر تقدير ميزانيتك.";
+      if (noteEl) noteEl.textContent = "الحاسبة لا تجلب أسعاراً مباشرة؛ أدخل عروض الفندق والناقل والتكاليف التي تحققت منها بنفسك.";
+      if (originNoteEl) originNoteEl.textContent = "جميع المبالغ بالدولار الأمريكي. حوّلها إلى عملتك بسعر الصرف المتاح يوم السفر.";
+      return;
+    }
 
-    const totalMin = hotelMin + dailyMin + taxiMin;
-    const totalMax = hotelMax + dailyMax + taxiMax;
+    const hotelTotal = hotelRate * nights * rooms * (1 - discount / 100);
+    const foodTotal = foodRate * travelers * days;
+    const localTotal = localRate * days;
+    const flightTotal = flightRate * travelers;
+    const total = hotelTotal + foodTotal + localTotal + transfer + flightTotal + extra;
+    totalEl.textContent = `الإجمالي التقديري بناءً على الأسعار المدخلة: ${toAr(total)} دولار أمريكي`;
 
-    totalEl.textContent = `النطاق التقديري داخل مشهد (${season.label}): ${toAr(totalMin)} – ${toAr(totalMax)} دولار أمريكي`;
-    breakdownEl.innerHTML = "";
     const rows = [
-      `الإقامة (${toAr(nights)} ليالٍ × ${toAr(rooms)} غرفة — ${tier.label}): ${toAr(hotelMin)}–${toAr(hotelMax)} دولار`,
-      `الطعام والتنقل اليومي داخل مشهد (${toAr(travelers)} مسافر × ${toAr(nights)} أيام): ${toAr(dailyMin)}–${toAr(dailyMax)} دولار`,
-      `نقل المطار ذهاباً وإياباً التقديري: ${toAr(taxiMin)}–${toAr(taxiMax)} دولار`,
+      [`الإقامة (${toAr(rooms)} غرفة × ${toAr(nights)} ليلة)`, hotelTotal],
+      [`الطعام (${toAr(travelers)} مسافر × ${toAr(days)} يوم)`, foodTotal],
+      [`التنقل داخل المدينة (${toAr(days)} يوم)`, localTotal],
+      ["الانتقال من المطار وإليه", transfer],
+      [`تذاكر الطيران ذهاباً وعودة (${toAr(travelers)} مسافر)`, flightTotal],
+      ["التأمين والمصاريف الإضافية", extra]
     ];
-    rows.forEach((text) => {
+    rows.forEach(([label, amount]) => {
       const li = document.createElement("li");
-      li.textContent = text;
+      li.textContent = `${label}: ${toAr(amount)} دولار`;
       breakdownEl.appendChild(li);
     });
-
-    if (seasonNoteEl) {
-      seasonNoteEl.textContent = season.note;
+    if (noteEl) {
+      noteEl.textContent = `احتُسب الفندق بعد خصم ${toAr(discount)}٪. أدخل هذه النسبة فقط إذا أكدها الفندق لك؛ الحد الأقصى للخصم الذي يمكن إدخاله هو ٢٠٪. هذا تقدير حسابي وليس عرض سعر أو حجزاً.`;
     }
-
-    if (originNoteEl) {
-      if (origin === "iraq") {
-        originNoteEl.textContent = "للمسافر من العراق: الحساب لا يشمل تذكرة الطيران أو النقل البري؛ حوّل النطاق الموضح إلى الدينار العراقي حسب سعر الصرف السوقي في مدينتك يوم السفر ولا تعتمد تقديراً قديماً.";
-      } else if (origin === "gulf") {
-        originNoteEl.textContent = "للمسافر من الخليج: الحساب لا يشمل تذاكر الطيران الإقليمية أو التسوق الشخصي؛ راجع سعر الصرف مقابل عملتك المحلية وقت الحجز.";
-      } else {
-        originNoteEl.textContent = "للمسافر من لبنان وسائر الدول: لا يشمل الحساب تذاكر الطيران الدولي أو أي إجراءات طبية.";
-      }
-    }
-
+    const origin = fields["calc-origin"].value;
+    const originNames = { iraq: "العراق", gulf: "دول الخليج", lebanon: "لبنان" };
+    if (originNoteEl) originNoteEl.textContent = `بلد المغادرة المحدد: ${originNames[origin] || "غير محدد"}. لا تتضمن الحاسبة تحويل العملات؛ استخدم سعر الصرف يوم السفر.`;
     if (waBtn) {
-      const msg = `السلام عليكم، أستفسر عن تنسيق رحلة مشهد لـ ${travelers} مسافر لمدة ${nights} ليالٍ (${rooms} غرفة - ${tier.label} - ${season.label})، والتقدير الظاهر بالحاسبة ${totalMin}-${totalMax} دولار دون الطيران. ما التوفر والسعر الصافي وهل يتاح أي خصم لتواريخي؟`;
+      const msg = `أرغب في مراجعة ميزانية رحلتي إلى مشهد. بلد المغادرة: ${originNames[origin] || "غير محدد"}. عدد المسافرين: ${travelers}، الليالي: ${nights}، الأيام: ${days}، الغرف: ${rooms}. الإجمالي الحسابي حسب الأسعار التي أدخلتها: ${toAr(total)} دولار. أرجو التحقق من التوفر والأسعار الحالية.`;
       waBtn.href = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(msg)}`;
     }
   };
 
-  [nightsEl, travelersEl, roomsEl, tierEl, seasonEl, originEl].forEach((el) => {
+  ids.forEach((id) => {
+    const el = fields[id];
     if (el) {
-      el.addEventListener("change", update);
       el.addEventListener("input", update);
+      el.addEventListener("change", update);
     }
   });
   update();

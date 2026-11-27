@@ -153,3 +153,14 @@
 - أُعيدت صياغتها لتفصل بين المعلومات التحضيرية والقرار الطبي، وتؤكد عدم تأخير الرعاية الطارئة، وضرورة تأكيد جلسات غسيل الكلى قبل السفر.
 - أُزيلت التوصيات العلاجية غير المناسبة للنشر العام، وأُضيفت إحالات إلى قائمة IPD الرسمية والوثائق الطبية والاستشارة المسبقة.
 - تم التحقق من بنية الصفحة وروابطها الداخلية وبياناتها المنظمة قبل النشر.
+
+## Humanización del clúster de presupuesto y viaje familiar — 2026-11-28
+
+- Se revisaron dos páginas: coste del viaje a Mashhad y viaje familiar con niños y adultos mayores.
+- Se eliminaron rangos fijos de vuelos, hoteles, comidas, taxi y transporte, así como ejemplos de totales en USD que habían sido revisados por última vez el 4 de noviembre y podían quedar desactualizados.
+- Se conservó la calculadora interactiva, pero se reemplazó la lógica basada en tarifas fijas por entradas editables: hotel por habitación/noche, descuento confirmado (máximo 20%), comida por persona/día, transporte diario, traslado aeropuerto, vuelos de ida y vuelta y otros gastos.
+- La calculadora suma únicamente los precios introducidos por el usuario, muestra el desglose y permite enviar el cálculo por WhatsApp. Se verificó su ejecución con un caso de prueba y se comprobó la sintaxis de JavaScript con node --check.
+- Se mantuvo el descuento hotelero estacional de hasta 20% como variable, no garantizada y sujeta a confirmación del hotel.
+- Se reescribió la guía familiar con recomendaciones prácticas sobre alojamiento, ritmo diario, documentos, transporte y actividades, sin horarios ni precios no confirmados.
+- Se actualizaron title, description, Open Graph, Twitter, JSON-LD y lastmod de las dos URLs. Se versionó el script solo en la página de la calculadora para evitar servir una versión antigua en caché.
+- Validación estática y de enlaces completada; calculadora probada y rutas internas comprobadas.
