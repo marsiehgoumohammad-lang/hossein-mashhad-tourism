@@ -221,3 +221,12 @@
 - Se reforzó la advertencia de que el clima, la nieve, la afluencia y los servicios cambian; se recomienda verificar condiciones cercanas a la fecha de viaje y no confiar en cifras o calendarios antiguos.
 - Se actualizaron title, description, Open Graph, Twitter, H1, JSON-LD y lastmod de las cinco URLs.
 - Validación estructural, de metadatos, JSON-LD y enlaces internos completada; no se encontraron enlaces rotos ni horarios o temperaturas fijas no verificadas.
+
+## Humanización del clúster cultural y de excursiones — 2026-11-28
+
+- Se revisaron cinco páginas: excursiones desde Mashhad, Mashhad como ciudad de peregrinación, museos y lugares culturales, visita a Qom y actividades en Mashhad.
+- Se redujeron introducciones repetidas y frases de relleno; se distinguió la guía general de actividades de las páginas específicas de parques, mercados, excursiones y museos.
+- Se retiró una distancia fija hacia Jamkaran y duraciones rígidas de visita; el contenido ahora pide verificar la ruta y los horarios vigentes según el punto de partida.
+- Se preservaron las imágenes, créditos, tarjetas internas y tablas; se actualizaron los textos y los metadatos.
+- Se actualizaron title, description, Open Graph, Twitter, H1, JSON-LD y lastmod de las cinco URLs.
+- Validación estructural, de metadatos, JSON-LD y enlaces internos completada.
