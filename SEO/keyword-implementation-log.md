@@ -136,3 +136,13 @@
 - Se reforzaron los límites: coordinación logística no es diagnóstico ni recomendación médica; la idoneidad del tratamiento y del viaje la determina el equipo médico.
 - Se conservaron imágenes, enlaces internos relevantes y CTA de WhatsApp; se sincronizaron metadatos, JSON-LD y lastmod de las ocho URLs.
 - Validación estática y de enlaces completada: un H1 y un main por página; JSON-LD válido; metadatos sociales sincronizados; enlaces internos comprobados; no se detectaron enlaces rotos ni placeholders.
+
+## Humanización del clúster de especialidades médicas e IVF — 2026-11-28
+
+- Se revisaron ocho páginas: oncología, cirugía cardíaca, infertilidad, centros IVF, neurocirugía, oftalmología, ortopedia y cirugía plástica.
+- Se retiraron precios no verificados, tasas de éxito, plazos fijos de recuperación, recomendaciones de tratamiento y promesas de resultados.
+- El contenido ahora se centra en documentos que el paciente puede preparar, preguntas para el equipo médico, verificación de IPD, seguimiento, viaje y alojamiento.
+- Se enlazó el Centro de Tratamiento de Infertilidad Boshra del Hospital Razavi con información contrastada en su página oficial; se aclaran los horarios publicados, la ausencia de alojamiento nocturno y los requisitos de admisión, sujetos a confirmación directa.
+- Se añadió referencia a la American Academy of Ophthalmology sobre restricciones de vuelo cuando existe una burbuja de gas intraocular.
+- Se mantuvieron las imágenes, las rutas internas y los CTA; se sincronizaron title, description, Open Graph, Twitter y JSON-LD.
+- Se actualizaron lastmod de las ocho URLs. Validación estática y de enlaces completada: un H1 y un main por página; JSON-LD válido; metadatos sociales sincronizados; enlaces internos comprobados; no se detectaron enlaces rotos ni placeholders.
