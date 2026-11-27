@@ -146,3 +146,10 @@
 - Se añadió referencia a la American Academy of Ophthalmology sobre restricciones de vuelo cuando existe una burbuja de gas intraocular.
 - Se mantuvieron las imágenes, las rutas internas y los CTA; se sincronizaron title, description, Open Graph, Twitter y JSON-LD.
 - Se actualizaron lastmod de las ocho URLs. Validación estática y de enlaces completada: un H1 y un main por página; JSON-LD válido; metadatos sociales sincronizados; enlaces internos comprobados; no se detectaron enlaces rotos ni placeholders.
+
+## استكمال صفحة الكلى والمسالك البولية — 2026-11-28
+
+- أظهر فحص شامل لأسماء الصفحات وجود صفحة إضافية للكلى والمسالك البولية لم تكن ضمن دفعة التخصصات السابقة.
+- أُعيدت صياغتها لتفصل بين المعلومات التحضيرية والقرار الطبي، وتؤكد عدم تأخير الرعاية الطارئة، وضرورة تأكيد جلسات غسيل الكلى قبل السفر.
+- أُزيلت التوصيات العلاجية غير المناسبة للنشر العام، وأُضيفت إحالات إلى قائمة IPD الرسمية والوثائق الطبية والاستشارة المسبقة.
+- تم التحقق من بنية الصفحة وروابطها الداخلية وبياناتها المنظمة قبل النشر.
