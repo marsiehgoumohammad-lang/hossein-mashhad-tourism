@@ -164,3 +164,13 @@
 - Se reescribió la guía familiar con recomendaciones prácticas sobre alojamiento, ritmo diario, documentos, transporte y actividades, sin horarios ni precios no confirmados.
 - Se actualizaron title, description, Open Graph, Twitter, JSON-LD y lastmod de las dos URLs. Se versionó el script solo en la página de la calculadora para evitar servir una versión antigua en caché.
 - Validación estática y de enlaces completada; calculadora probada y rutas internas comprobadas.
+
+## Humanización del clúster de actividades y naturaleza — 2026-11-28
+
+- Se revisaron cuatro páginas: equitación, parques y senderismo, parques acuáticos, y excursiones a Torghabeh/Shandiz y pueblos cercanos.
+- Se eliminaron distancias, duraciones de trayecto, horarios, estaciones de metro y descripciones de instalaciones que no estaban verificadas o podían cambiar.
+- Se aclararon las condiciones de seguridad y edad para montar a caballo, sin prometer que una actividad sea apta para todos los niños o principiantes.
+- Se añadieron enlaces oficiales para los parques acuáticos: WWL, Mojhaye Khorooshan, Park Abi Iranian y la referencia corporativa de Saheli Aftab.
+- Se añadió una advertencia fechada: el sitio oficial de Park Abi Iranian indicaba el 28 de noviembre de 2026 que el turno masculino no estaba activo y que las entradas no eran reembolsables; se instruye comprobar el estado antes de comprar.
+- Se conservaron las imágenes y CTA, se actualizaron metadatos y JSON-LD y lastmod de las cuatro URLs.
+- Validación estática y de enlaces completada: un H1 y un main por página; JSON-LD válido; metadatos sociales sincronizados; enlaces internos comprobados; no se detectaron enlaces rotos ni placeholders.
