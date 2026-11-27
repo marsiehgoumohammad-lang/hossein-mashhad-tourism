@@ -239,3 +239,13 @@
 - En la guía de accesibilidad se priorizaron las necesidades reales del viajero y la verificación de entradas, ascensores, baños, puntos de descenso y pausas, sin prometer instalaciones no comprobadas.
 - Se actualizaron FAQPage JSON-LD, title, description, Open Graph, Twitter, H1 y lastmod.
 - Validación estructural, de metadatos, JSON-LD y enlaces internos completada.
+
+## Humanización del clúster de pagos y tarjeta turística — 2026-11-28
+
+- Se revisaron seis páginas: pagos y tarjeta para visitantes del Golfo, solicitud de tarjeta turística, explicación general de la tarjeta, dinero y pagos, tarjeta para visitantes iraquíes y uso de Visa/Mastercard en Irán.
+- Se actualizó la información de la tarjeta conforme a los anuncios del Banco Central: hasta dos tarjetas para cada persona elegible; límite anunciado de hasta el equivalente a 5.000 euros por cada operación de recarga; recarga mediante compra de efectivo en euros/dólares o transferencia entrante por banco/casa de cambio autorizados; no se permite recargar desde otra tarjeta.
+- Se aclaró que la tarjeta es una herramienta local prepago, no una cuenta bancaria ni una tarjeta internacional; la elegibilidad requiere verificación de identidad, edad y situación de entrada/visado por la entidad emisora.
+- Se eliminaron las promesas de emisión garantizada, los supuestos de disponibilidad en cada frontera y las transferencias mediante intermediarios personales. Se insistió en pagar directamente a la entidad autorizada y conservar recibos.
+- Se redujeron enlaces genéricos repetidos y se diferenciaron las páginas de información general, pasos de solicitud y orientación específica para visitantes iraquíes y del Golfo.
+- Se actualizaron title, description, Open Graph, Twitter, H1, FAQPage JSON-LD y lastmod.
+- Validación estructural, de metadatos, JSON-LD y enlaces internos completada.
