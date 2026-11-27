@@ -259,3 +259,12 @@
 - Se corrigieron secuencias Unicode literales en el texto persa y se añadieron pronunciaciones latinas a diez frases prácticas para transporte, hotel, comida y emergencias.
 - Se actualizaron title, description, Open Graph, Twitter, H1, JSON-LD y lastmod.
 - Validación estructural, de metadatos, JSON-LD y enlaces internos completada.
+
+## Humanización del clúster de cambios de viaje y verificación de campo — 2026-11-28
+
+- Se revisaron dos páginas: retrasos/cambios de vuelo y solicitud de verificación o inspección de campo en Mashhad.
+- En la guía de vuelos se retiraron umbrales universales de demora y promesas automáticas de compensación; las opciones dependen de la aerolínea, el billete, la causa y las reglas aplicables.
+- La página anteriormente presentada como representación/escrow se convirtió en una guía de alcance limitado para inspección visual y documentación de lo observable. Se eliminó cualquier promesa de recibir, custodiar o transferir dinero, y se indicó que los pagos deben realizarse directamente a bancos/casas de cambio autorizados o a la contraparte.
+- Se aclaró que la inspección visual no acredita propiedad, estado legal, calidad de laboratorio ni seguridad mecánica; esos extremos requieren profesionales y entidades competentes.
+- Se actualizaron title, description, Open Graph, Twitter, H1, FAQPage JSON-LD y lastmod.
+- Validación estructural, de metadatos, JSON-LD y enlaces internos completada.
