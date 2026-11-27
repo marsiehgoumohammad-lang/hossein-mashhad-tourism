@@ -95,3 +95,14 @@
 - Se actualizaron las fechas lastmod de las ocho URLs en sitemap.xml. No se añadieron ni eliminaron URLs.
 - Validación estática: un H1 y un main por página; JSON-LD parseable; rutas internas revisadas; no se detectaron placeholders ni enlaces internos rotos en la comprobación local.
 - El sitio es un conjunto de páginas HTML estáticas y el repositorio no contiene package.json, por lo que no hay scripts locales de Build, ESLint o TypeScript que ejecutar. La verificación del deployment de Vercel queda pendiente por falta de acceso al proyecto desde la conexión actual.
+
+## Humanización del clúster de viajes desde Irak y países árabes — 2026-11-28
+
+- Se revisaron seis páginas: viaje desde Irak, ruta terrestre Irak–Mashhad, requisitos de entrada por nacionalidad, viaje desde el Golfo, viaje desde Líbano y seguro de viaje.
+- Se sustituyeron encabezados mecánicos y frases repetidas por explicaciones orientadas a las decisiones reales del viajero.
+- Se corrigió la presentación de las exenciones: se distinguen los casos de Irak y Omán, la exención turística limitada para determinados pasaportes del Golfo, la regla anunciada para pasaportes libaneses ordinarios y la advertencia de viaje de Emiratos para sus ciudadanos.
+- Se eliminaron horarios y duraciones de vuelos que podían quedar obsoletos; se enlazó el estado oficial de vuelos del aeropuerto de Najaf.
+- Se aclaró que la situación de los pasos fronterizos cambia y debe confirmarse el mismo día; se añadió referencia al reporte de interrupción temporal en Shalamcheh del 24 de noviembre de 2026.
+- Se mantuvieron las rutas internas, imágenes, llamadas de WhatsApp y datos estructurados; se actualizaron title, description, Open Graph, Twitter y WebPage/Article JSON-LD.
+- Se actualizó lastmod de las seis URLs en sitemap.xml sin cambiar el número de páginas.
+- Validación estática y de enlaces completada: un H1 y un main por página; JSON-LD parseable; metadatos sociales coherentes; rutas internas comprobadas; no se detectaron enlaces internos rotos ni placeholders.
