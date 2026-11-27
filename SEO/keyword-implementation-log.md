@@ -84,3 +84,14 @@
 - راهنمای زیارت حرم به راهنمای سفر از عراق و صفحات سفر از عراق/مسیر زمینی به راهنمای جامع مشهد و راهنمای زیارت حرم متصل شدند؛ هدف، اتصال مسیر ورود به شهر، نیت زیارتی و مرحله استفاده از خدمات است.
 - هیچ URL، canonical، schema، محتوای حقوقی/پزشکی، قیمت یا ادعای خدماتی تغییر نکرد. صفحه تازه‌ای ساخته نشده؛ بنابراین sitemap و redirectها عمداً دست‌نخورده ماندند.
 - این تغییرات صرفاً در شاخه review قرار دارند و تا تأیید صریح، ادغام یا انتشار نمی‌شوند.
+
+## Humanización y revisión del clúster de hoteles — 2026-11-28
+
+- Se revisaron y reescribieron ocho páginas: comparación central de hoteles, Almas 1/2, Boshra-Arman-Hayat Shargh, Darvishi, Ghasr Talaei, Madinat Al-Reza, Qasr International y guía de alquiler de apartamentos.
+- Se redujeron las fórmulas repetitivas, los encabezados mecánicos, el relleno de palabras clave y las afirmaciones promocionales que no ayudaban a decidir.
+- Se eliminaron precios y distancias exactas no verificados. Se conservaron únicamente los datos que pudieron contrastarse con fuentes oficiales o se presentaron como información que debe confirmarse con el proveedor.
+- Se aclaró la diferencia entre Qasr International y Ghasr Talaei, y se mantuvo el descuento estacional de hasta el 20% como posibilidad variable, nunca garantizada y sujeta a confirmación antes del pago.
+- Se conservaron las imágenes, las rutas internas, las llamadas de WhatsApp, los canonical existentes y el grafo JSON-LD; se sincronizaron title, description, Open Graph, Twitter y los datos de WebPage/Article.
+- Se actualizaron las fechas lastmod de las ocho URLs en sitemap.xml. No se añadieron ni eliminaron URLs.
+- Validación estática: un H1 y un main por página; JSON-LD parseable; rutas internas revisadas; no se detectaron placeholders ni enlaces internos rotos en la comprobación local.
+- El sitio es un conjunto de páginas HTML estáticas y el repositorio no contiene package.json, por lo que no hay scripts locales de Build, ESLint o TypeScript que ejecutar. La verificación del deployment de Vercel queda pendiente por falta de acceso al proyecto desde la conexión actual.
