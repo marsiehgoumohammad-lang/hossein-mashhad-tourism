@@ -202,3 +202,14 @@
 - أُزيلت التعليمات الدوائية أو التحضيرية التي قد تُفهم كبديل عن تعليمات الطبيب؛ وأُكد عدم إيقاف الأدوية دون توجيه طبي، وضرورة طلب الرعاية الطارئة عند الأعراض الخطرة.
 - تم تحديث metadata وJSON-LD وlastmod للصفحات الأربع.
 - Validación estática y de enlaces completada: un H1 y un main por página; JSON-LD válido; metadatos sociales sincronizados; enlaces internos comprobados; no se detectaron enlaces rotos ni placeholders.
+
+## Humanización del clúster de identidad y conversión — 2026-11-28
+
+- Se revisaron seis páginas principales: inicio, servicios, sobre حسين, programas de visita, testimonios y el índice del blog.
+- Se reescribió la presentación de حسين en primera persona, con foco en el acompañamiento local y la coordinación transparente; se retiraron afirmaciones no verificadas sobre trabajo familiar, años de experiencia y disponibilidad de apoyo 24 horas.
+- Se limitaron las afirmaciones médicas a consulta y coordinación no clínica; se aclararon los límites de traducción y decisión médica.
+- Se precisó que cualquier transferencia debe realizarse directamente mediante una entidad financiera autorizada y que las inspecciones de campo requieren un alcance y método de documentación acordados por escrito.
+- Se conservó el descuento hotelero de hasta 20% como posibilidad variable, sujeta a confirmación del hotel y no garantizada.
+- Se mantuvieron imágenes, estructura, tarjetas, enlaces, tablas, CTAs y filtros interactivos del blog; el índice continúa mostrando 86 guías de contenido, además de la página de inicio.
+- Se actualizaron title, description, Open Graph, Twitter, JSON-LD y lastmod de las seis URLs.
+- Validación estructural, de metadatos, JSON-LD y enlaces internos completada.
