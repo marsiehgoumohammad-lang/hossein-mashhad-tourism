@@ -106,3 +106,13 @@
 - Se mantuvieron las rutas internas, imágenes, llamadas de WhatsApp y datos estructurados; se actualizaron title, description, Open Graph, Twitter y WebPage/Article JSON-LD.
 - Se actualizó lastmod de las seis URLs en sitemap.xml sin cambiar el número de páginas.
 - Validación estática y de enlaces completada: un H1 y un main por página; JSON-LD parseable; metadatos sociales coherentes; rutas internas comprobadas; no se detectaron enlaces internos rotos ni placeholders.
+
+## Humanización del clúster de transporte local y llegada al aeropuerto — 2026-11-28
+
+- Se revisaron tres páginas: traslado desde el aeropuerto al santuario/hotel, transporte dentro de Mashhad y guía de conductor/m acompañante en árabe.
+- Se eliminaron precios, distancias y tiempos de traslado antiguos o no verificables, así como estimaciones en dólares que podían inducir a error.
+- Se explicó que la línea 1 conecta el aeropuerto con partes de la ciudad, pero no garantiza llegada puerta a puerta al hotel o a la puerta del santuario; se añadió referencia al operador del metro para comprobar el servicio.
+- Se distinguieron conductor, conductor que habla árabe y acompañante/intérprete; no se promete disponibilidad antes de confirmarla. Se aclaró que la ayuda lingüística general no sustituye la interpretación médica especializada.
+- Se retiraron afirmaciones no verificadas sobre equipos, ausencia de comisiones y servicios garantizados. Se mantuvieron las rutas internas, imágenes y contacto de WhatsApp.
+- Se actualizaron metadatos y JSON-LD y lastmod de las tres URLs.
+- Validación estática completada: estructura HTML, un H1, JSON-LD válido, metadatos sociales sincronizados y enlaces internos comprobados.
